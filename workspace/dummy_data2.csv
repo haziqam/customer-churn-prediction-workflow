@@ -1,0 +1,1001 @@
+customerID,tenure,MonthlyCharges,SeniorCitizen,gender,Partner,Dependents,InternetService,Contract,PaperlessBilling,PaymentMethod,Churn,PhoneService,MultipleLines
+0d193ffe,5,46.305678713692224,0,Male,Yes,Yes,DSL,Month-to-month,No,Electronic check,No,No,Yes
+b8b4e0fb,26,24.83454119931271,0,Female,No,No,No,Two year,No,Credit card (automatic),No,Yes,No
+ad36a2ca,0,59.1603355903827,0,Female,No,No,DSL,Month-to-month,Yes,Mailed check,Yes,Yes,Yes
+53541978,59,96.24068193763297,0,Female,No,No,Fiber optic,One year,Yes,Electronic check,No,No,Yes
+21ef7196,54,111.89588140913112,0,Male,Yes,No,Fiber optic,Two year,No,Bank transfer (automatic),Yes,No,Yes
+f59febc6,69,18.02043562242908,0,Male,No,No,No,Two year,Yes,Bank transfer (automatic),No,No,Yes
+1804b428,21,79.26680897358384,0,Female,Yes,Yes,Fiber optic,One year,No,Bank transfer (automatic),No,Yes,No
+b12201d9,62,23.16300942044658,0,Male,Yes,Yes,No,Two year,Yes,Mailed check,No,No,No
+ea841b39,54,102.46509298403562,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+d707d5d1,4,42.485518731798734,1,Male,No,No,DSL,Month-to-month,No,Mailed check,Yes,Yes,No
+97b5819d,58,49.859326190884666,0,Female,Yes,Yes,DSL,One year,Yes,Bank transfer (automatic),No,Yes,Yes
+4fc737df,20,25.031295253249322,0,Male,No,No,DSL,Month-to-month,No,Mailed check,No,Yes,Yes
+a5ebfee3,8,32.08194981998605,0,Female,Yes,Yes,DSL,Month-to-month,No,Electronic check,No,No,Yes
+41d008aa,9,95.71302527771337,0,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,No,No
+efd1f923,37,35.63750112641062,0,Female,No,No,DSL,Month-to-month,Yes,Mailed check,No,Yes,Yes
+9219350f,60,113.41667307868323,0,Female,No,No,Fiber optic,One year,Yes,Credit card (automatic),No,Yes,Yes
+9df6777a,42,97.93220049752617,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+5ac21b9a,66,115.72818765593172,0,Male,Yes,Yes,Fiber optic,One year,Yes,Electronic check,No,No,No
+8a6a8ef5,1,49.574830560548236,0,Female,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+ef8cdb8d,29,43.73842038468082,0,Male,No,No,DSL,Month-to-month,No,Electronic check,No,No,No
+bd1a2a34,72,26.19919426476045,0,Male,Yes,No,No,Two year,No,Mailed check,No,Yes,No
+f51bd146,22,19.141608144631153,0,Female,No,No,No,One year,No,Credit card (automatic),No,Yes,Yes
+b0974e64,69,26.409316906543356,0,Male,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,Yes,No
+df226815,3,21.159794719842065,0,Male,No,Yes,No,Month-to-month,Yes,Mailed check,No,No,No
+b7b438a7,40,106.35077359431878,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+c5c36f0f,24,101.81921316899329,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+18428573,22,78.34461652332035,0,Female,No,Yes,DSL,Month-to-month,Yes,Mailed check,No,No,No
+3df3e579,11,42.90303672124682,0,Female,No,No,DSL,Month-to-month,No,Mailed check,No,Yes,Yes
+fbb42487,72,107.61457969467911,0,Male,Yes,No,Fiber optic,Two year,Yes,Credit card (automatic),No,Yes,No
+f3fdc36e,69,23.992663757674418,0,Male,Yes,No,No,Two year,No,Credit card (automatic),No,No,No
+762dda06,21,90.82742112516672,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+33af52f5,4,58.453553881916584,0,Female,No,No,DSL,Month-to-month,Yes,Electronic check,No,No,Yes
+c58cace6,13,47.838704320545645,0,Male,No,No,DSL,Month-to-month,No,Electronic check,Yes,Yes,Yes
+29a4fce4,27,20.061742172753032,0,Male,No,No,No,One year,No,Mailed check,No,Yes,Yes
+abe8d50d,15,60.029803401220036,0,Male,No,No,DSL,Two year,No,Mailed check,No,No,No
+307ae7df,3,88.29379944965045,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+20f700e0,15,20.458456285629964,0,Female,Yes,Yes,No,Two year,No,Mailed check,No,Yes,No
+84520874,26,78.85627139052806,0,Female,Yes,No,Fiber optic,Month-to-month,No,Bank transfer (automatic),No,No,Yes
+e727a089,50,20.730148814914326,0,Female,No,Yes,No,Two year,No,Credit card (automatic),No,Yes,No
+87531008,40,20.345551040529614,0,Female,Yes,No,No,Two year,No,Mailed check,No,No,Yes
+0200897f,16,91.25734214985303,0,Male,No,No,Fiber optic,Month-to-month,No,Credit card (automatic),No,No,Yes
+12e59559,1,20.950060375575777,0,Male,No,No,No,Month-to-month,No,Mailed check,No,No,Yes
+513b9c37,2,20.205228575251184,0,Female,No,No,No,Month-to-month,No,Mailed check,No,No,No
+b3aaab52,2,22.17575762770371,0,Female,No,No,No,Month-to-month,No,Mailed check,Yes,No,Yes
+36427602,71,125.49218315523444,0,Male,Yes,No,Fiber optic,Two year,Yes,Credit card (automatic),No,No,No
+86ba3ba8,7,51.28056205444063,0,Female,No,No,DSL,Month-to-month,No,Electronic check,No,Yes,Yes
+7191e6ba,71,58.54686350896829,0,Female,Yes,No,DSL,Two year,Yes,Electronic check,Yes,Yes,No
+4e5857f6,34,113.73592512233824,1,Male,Yes,No,Fiber optic,Month-to-month,No,Bank transfer (automatic),Yes,No,No
+aa721686,59,37.48130373141624,0,Male,Yes,No,DSL,Two year,Yes,Credit card (automatic),No,Yes,Yes
+bd8728d7,62,54.03740936301353,0,Female,Yes,No,DSL,Two year,Yes,Credit card (automatic),No,No,No
+7b940a16,14,20.437219260706502,0,Female,No,No,No,Month-to-month,No,Mailed check,No,Yes,No
+419faf7c,63,90.06399031706059,0,Male,Yes,Yes,DSL,Two year,Yes,Credit card (automatic),No,No,Yes
+60fd565a,29,73.07999982405425,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,No,Yes
+ab8afbea,30,88.1849662675199,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+23d5b186,2,70.21675071225943,0,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,No,No
+ac495c96,63,81.09799005521371,0,Male,Yes,No,DSL,Two year,No,Electronic check,No,Yes,Yes
+948d622a,56,23.7680685953378,0,Male,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),No,No,No
+f3c5dc9d,0,40.95019473278132,0,Female,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),Yes,No,No
+45cc95da,2,85.96904092833684,0,Female,No,Yes,Fiber optic,Month-to-month,No,Bank transfer (automatic),Yes,No,Yes
+1e5a748c,66,102.53110418153231,0,Female,No,No,Fiber optic,One year,Yes,Bank transfer (automatic),No,No,Yes
+d7bce321,4,76.55278165610596,0,Female,No,No,Fiber optic,Month-to-month,No,Electronic check,No,No,Yes
+ee43e623,57,84.76422764738892,0,Male,Yes,No,DSL,Two year,Yes,Electronic check,No,No,Yes
+2335ba2e,0,77.1628704916026,0,Male,No,Yes,DSL,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+9ccf0972,47,108.28940805780978,1,Female,Yes,No,Fiber optic,Month-to-month,No,Electronic check,Yes,No,No
+9f7f9b86,2,32.90223426630871,0,Male,No,No,DSL,Month-to-month,No,Electronic check,No,No,Yes
+606aee1b,4,75.56046435367954,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+b1633dec,75,87.84755714264689,0,Female,Yes,Yes,DSL,Two year,No,Credit card (automatic),No,No,No
+920ed2a7,2,36.80428949216997,0,Female,Yes,Yes,DSL,Month-to-month,No,Electronic check,Yes,No,No
+fa7fcd0d,35,20.42914159561537,0,Female,No,Yes,No,One year,Yes,Credit card (automatic),No,Yes,No
+18ca8f30,62,49.123620641532106,0,Female,Yes,No,DSL,One year,No,Electronic check,No,No,Yes
+c3a2637f,70,101.73684110313523,0,Female,Yes,No,Fiber optic,Two year,Yes,Credit card (automatic),No,Yes,Yes
+c55426f3,16,73.84601012488007,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+f9597ed7,19,19.581519505618594,0,Female,No,No,No,Two year,Yes,Credit card (automatic),No,Yes,Yes
+6247c963,22,77.90846144161141,1,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,Yes,Yes
+4f0dc148,12,88.5888084847503,0,Female,Yes,Yes,Fiber optic,Month-to-month,No,Electronic check,No,No,Yes
+5cd1c03f,68,58.622281175854354,1,Female,No,No,DSL,One year,Yes,Credit card (automatic),No,Yes,Yes
+a8ca28e6,53,77.95090745072658,1,Female,No,No,DSL,One year,No,Mailed check,No,Yes,No
+247d7502,15,47.01640592058501,0,Male,Yes,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+3cfbbe15,4,41.50880506306041,0,Male,No,No,DSL,Month-to-month,Yes,Mailed check,Yes,Yes,No
+dcc7b83e,13,72.84875056291419,0,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,No
+fcaa5630,55,19.75173136137665,0,Female,Yes,Yes,No,One year,No,Credit card (automatic),No,No,No
+ab2491f6,11,103.07226529968781,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+53d694fe,61,82.67440231479986,0,Male,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+5a4210b0,25,21.693405920552763,0,Male,No,No,No,Month-to-month,Yes,Electronic check,No,Yes,Yes
+4ab00b72,67,25.89663641983358,0,Male,Yes,No,No,Two year,No,Bank transfer (automatic),No,Yes,Yes
+c2957c07,40,17.673742522141062,0,Female,Yes,Yes,No,One year,Yes,Electronic check,No,No,No
+ceb679d8,31,105.15545268292124,0,Female,No,No,Fiber optic,One year,Yes,Credit card (automatic),No,No,Yes
+1a7aedb3,38,111.97488472175178,1,Male,Yes,Yes,Fiber optic,One year,Yes,Electronic check,Yes,No,Yes
+c36c455d,37,87.41727787217022,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+9ec65985,69,19.461288163482532,1,Female,Yes,No,No,Two year,Yes,Bank transfer (automatic),No,Yes,No
+3d0b2207,29,73.72194865116695,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+4c8e1140,74,68.48080023564066,0,Male,No,No,DSL,Two year,No,Bank transfer (automatic),No,No,Yes
+1b44a7fa,28,98.38102476120399,1,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+28584d7a,3,75.64089546670932,0,Female,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,No,Yes
+e598b6ea,39,97.70661596763487,1,Female,No,No,Fiber optic,One year,Yes,Bank transfer (automatic),No,Yes,Yes
+909a752f,7,74.76539786997911,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Mailed check,No,No,No
+c4b909fe,59,45.348976817632014,1,Female,Yes,No,DSL,Two year,Yes,Credit card (automatic),No,No,Yes
+cf863384,68,76.8670739013354,0,Female,No,No,DSL,One year,Yes,Bank transfer (automatic),No,No,No
+b81a3484,2,64.43174575169878,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Mailed check,Yes,Yes,Yes
+e8446a1c,5,88.83598141095197,0,Male,Yes,Yes,Fiber optic,Month-to-month,No,Credit card (automatic),Yes,No,Yes
+7da17034,1,57.65540869896959,0,Female,Yes,Yes,DSL,Two year,Yes,Bank transfer (automatic),No,No,No
+297be075,49,89.1539904085403,0,Female,Yes,No,Fiber optic,One year,Yes,Electronic check,No,Yes,Yes
+f7e21d40,26,77.66003994563853,0,Female,Yes,Yes,Fiber optic,Month-to-month,No,Electronic check,No,Yes,Yes
+70751b7b,24,20.18233015153634,0,Female,No,No,No,One year,Yes,Credit card (automatic),No,No,Yes
+bf35d502,21,81.00610831753319,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,No
+02ce71bf,55,63.38699734608886,0,Male,Yes,No,DSL,Two year,Yes,Electronic check,No,No,No
+9c4f71bc,18,72.2283716775916,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+66f790e0,30,20.749756478693673,0,Female,Yes,Yes,No,Two year,No,Mailed check,No,Yes,No
+16810e0d,36,93.52987785267733,0,Female,Yes,Yes,DSL,Two year,Yes,Credit card (automatic),No,No,Yes
+d820e7db,0,94.59075069341253,1,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+868ae309,3,57.83128770839293,0,Male,No,No,DSL,Month-to-month,No,Bank transfer (automatic),Yes,No,No
+514d8106,61,24.58951776351808,0,Male,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),No,No,Yes
+984c5b56,13,18.543630239737293,0,Female,No,No,No,Month-to-month,Yes,Mailed check,No,Yes,No
+ada15b9e,43,96.29680064086743,0,Female,No,No,Fiber optic,Two year,Yes,Bank transfer (automatic),No,Yes,Yes
+1671eb93,28,68.02327547774907,0,Male,No,No,Fiber optic,Month-to-month,No,Electronic check,No,No,No
+1365ff63,0,73.31896943220303,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+0dc30e73,23,76.16497289203424,1,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+3f4bb18a,9,96.3026339471308,0,Male,No,Yes,Fiber optic,Month-to-month,No,Mailed check,Yes,No,Yes
+d84284a3,3,85.4930863218825,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+c5ab3a34,19,82.8364863355544,0,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+b3c8d291,3,47.93171444577584,0,Female,No,No,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+5b6245f4,10,65.5285962827319,0,Female,No,No,DSL,Month-to-month,No,Mailed check,No,Yes,No
+14baa582,48,21.45177237350168,0,Female,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,No,Yes
+90d8e999,27,83.71409558117118,0,Male,Yes,Yes,Fiber optic,One year,No,Bank transfer (automatic),No,Yes,No
+398e39f2,13,97.69949952762168,0,Female,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,No,Yes
+5e306be9,58,19.80540595804834,0,Female,Yes,Yes,No,Two year,No,Credit card (automatic),No,Yes,No
+2ba1ee48,3,50.15955715565108,0,Male,No,Yes,DSL,Month-to-month,Yes,Electronic check,No,Yes,Yes
+258e3e31,18,66.20365683637563,0,Male,No,No,DSL,Month-to-month,No,Mailed check,No,No,No
+057795f8,51,19.335384815639273,0,Female,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),No,Yes,Yes
+a537fd97,42,82.16857619437599,0,Male,Yes,Yes,DSL,Two year,Yes,Credit card (automatic),No,No,Yes
+90e92648,17,89.50346578153746,0,Female,Yes,Yes,Fiber optic,Month-to-month,No,Electronic check,Yes,Yes,No
+9a9569c1,3,100.22323249452818,0,Female,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,No,Yes
+097ffd77,37,18.776151498853388,0,Male,Yes,Yes,No,Two year,No,Mailed check,No,Yes,No
+47135c94,8,21.154651258206655,0,Female,Yes,Yes,No,Month-to-month,No,Mailed check,No,Yes,Yes
+41a1529f,38,113.38691085584676,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+995e8cb8,15,68.53961686114299,0,Male,Yes,Yes,Fiber optic,Month-to-month,No,Mailed check,No,Yes,Yes
+83a6980a,10,40.40190083862491,0,Female,Yes,No,DSL,Month-to-month,Yes,Mailed check,No,Yes,No
+ef72dd5d,61,66.84235839619953,0,Female,No,No,DSL,One year,No,Electronic check,No,Yes,No
+6088e722,9,68.96360244448064,0,Female,No,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+482f7f8b,2,101.24232250691823,0,Male,Yes,Yes,Fiber optic,Month-to-month,No,Electronic check,No,Yes,Yes
+76fd4e74,5,98.27827199121737,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+3f75ded6,70,18.873658798573846,0,Female,Yes,Yes,No,Two year,No,Mailed check,No,No,No
+517200ed,17,20.93572951475526,0,Female,No,No,No,Two year,No,Mailed check,No,Yes,No
+281d215e,28,55.10954534813651,0,Male,Yes,Yes,DSL,Month-to-month,No,Bank transfer (automatic),No,No,No
+e522fded,38,35.18493612309149,1,Male,No,No,DSL,Month-to-month,No,Electronic check,No,Yes,No
+602b153a,16,43.856773489030026,0,Male,Yes,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+4e361795,7,45.10833913997403,0,Male,No,No,DSL,Month-to-month,No,Mailed check,No,Yes,No
+7d44db71,0,92.48935513982602,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+4f3fba8f,6,63.096917315348534,0,Male,No,No,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+08e8f531,11,18.472382353923017,0,Male,No,Yes,No,One year,Yes,Bank transfer (automatic),No,Yes,No
+52d15fb9,6,33.35046364902156,0,Female,Yes,Yes,DSL,Month-to-month,Yes,Electronic check,No,Yes,Yes
+17ffa56b,3,66.45617686843084,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+ca9e62ea,69,120.22580042740216,0,Male,Yes,No,Fiber optic,Two year,Yes,Credit card (automatic),No,Yes,No
+0c060c1e,57,56.3946169912114,0,Male,No,No,DSL,One year,Yes,Mailed check,No,No,No
+e2d30f0f,44,82.47578101387283,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+71f61ce6,13,93.70650587281045,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+29d0dc3e,0,74.78123386785398,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+b30cc8e8,62,19.999392447517508,0,Male,Yes,Yes,No,Two year,Yes,Credit card (automatic),No,Yes,Yes
+0fab0a54,34,45.55795683848137,1,Male,Yes,No,DSL,Month-to-month,Yes,Electronic check,No,No,No
+64a6daef,56,94.28331270908254,0,Male,Yes,Yes,Fiber optic,One year,Yes,Mailed check,No,Yes,No
+90ddc78e,60,75.88333758674263,0,Female,Yes,Yes,DSL,Two year,No,Credit card (automatic),No,Yes,Yes
+64f2fd03,13,19.69793927513959,0,Female,No,No,No,One year,No,Mailed check,No,Yes,Yes
+de8d3f21,57,44.92487095898251,1,Male,Yes,No,DSL,Month-to-month,Yes,Electronic check,Yes,No,Yes
+bb1494da,25,94.75145461756266,0,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+d802b946,14,51.06287803797715,0,Male,No,No,DSL,Month-to-month,Yes,Electronic check,No,No,Yes
+75fbdf64,20,21.52012819664874,0,Female,Yes,Yes,No,Month-to-month,No,Mailed check,No,No,No
+c78cd9e9,29,95.49803038078801,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,Yes,Yes
+d403b910,51,103.85832736347014,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+72d2cd14,33,50.85192144031287,1,Male,Yes,No,DSL,Month-to-month,Yes,Bank transfer (automatic),Yes,No,Yes
+28d5783a,74,116.75795450668635,1,Male,Yes,No,Fiber optic,Two year,Yes,Bank transfer (automatic),No,No,Yes
+2d07e7a3,19,18.7143450717834,0,Male,Yes,Yes,No,One year,No,Bank transfer (automatic),No,Yes,No
+76a008d8,49,71.32757756554054,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+d22ba146,1,22.872782200442913,0,Male,Yes,Yes,No,One year,No,Credit card (automatic),No,Yes,No
+27dcd49b,10,56.105807782951274,0,Male,Yes,Yes,DSL,Month-to-month,Yes,Mailed check,No,No,Yes
+d84dccaa,9,72.78198902300193,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+96ca0404,53,63.64963224905629,0,Male,No,No,DSL,Month-to-month,Yes,Mailed check,No,No,Yes
+c0d41d37,8,74.72707174306584,0,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,Yes,No
+42add251,67,56.061082716301314,0,Female,Yes,No,DSL,Two year,Yes,Credit card (automatic),No,No,No
+ae550fc5,37,59.17587766740173,0,Female,Yes,Yes,DSL,Month-to-month,No,Electronic check,No,Yes,Yes
+2a56b392,12,83.38610754650766,0,Male,No,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+5def8807,10,81.27410895885167,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+b63f3a61,69,21.240782936571605,0,Male,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),No,Yes,No
+961926c5,22,52.249159257715135,0,Male,Yes,No,DSL,Month-to-month,No,Credit card (automatic),No,No,No
+15e7ca32,75,68.72129372748381,0,Male,Yes,No,DSL,Two year,Yes,Bank transfer (automatic),No,Yes,No
+9e01aa3e,1,72.4620718796108,0,Female,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,No,No
+c85fde67,60,17.779355385257453,0,Female,Yes,Yes,No,Two year,No,Electronic check,No,Yes,Yes
+1892030a,12,92.76326038475165,0,Female,Yes,No,Fiber optic,Month-to-month,No,Electronic check,No,Yes,Yes
+0c70c17b,6,45.20332231876406,1,Female,Yes,Yes,DSL,Month-to-month,No,Electronic check,Yes,Yes,No
+acc1c261,25,93.79886829210363,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+6defd47f,2,83.91433485569246,0,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,No,No
+b7a1a6c5,11,97.27775092345392,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,No
+5c9d8d9c,43,18.81541700544225,0,Male,Yes,Yes,No,Two year,Yes,Mailed check,No,No,Yes
+1b221b68,13,88.39374241903026,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+5f16397e,0,18.661139966428703,0,Male,No,No,No,Month-to-month,No,Mailed check,No,No,Yes
+509f6bc3,74,99.07812310766629,0,Male,Yes,No,Fiber optic,Two year,No,Bank transfer (automatic),No,Yes,Yes
+dc14f205,12,75.99035059701389,0,Male,No,No,DSL,Month-to-month,Yes,Credit card (automatic),Yes,No,No
+d79f42cb,21,96.23648793514336,1,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+dfe9e19b,25,81.2218901063516,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,No
+ddf8e416,45,25.157986271193828,0,Male,Yes,Yes,No,Two year,No,Mailed check,No,No,Yes
+d270a547,3,68.23673634572232,0,Female,No,No,DSL,Month-to-month,Yes,Electronic check,No,Yes,No
+eecffcb8,17,74.34760511580714,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+76a9a92b,3,97.45749033563878,1,Male,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,Yes,No
+a90699f6,75,97.15260097124951,0,Female,Yes,Yes,Fiber optic,Two year,Yes,Bank transfer (automatic),No,No,Yes
+8947cc97,39,77.80696749592947,0,Male,Yes,Yes,DSL,One year,No,Credit card (automatic),Yes,Yes,No
+a79abbbd,27,64.99671049968539,0,Male,No,No,DSL,Month-to-month,No,Bank transfer (automatic),No,Yes,No
+11497403,9,82.7048736854934,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+68b5c0cb,72,18.409141165822287,0,Female,Yes,No,No,Two year,No,Credit card (automatic),No,No,Yes
+504878af,65,37.48001354231359,0,Female,Yes,Yes,DSL,Two year,No,Bank transfer (automatic),No,Yes,No
+ab5b5020,14,65.04428539462857,0,Male,Yes,Yes,DSL,One year,Yes,Mailed check,No,No,No
+91669476,66,97.32930974381482,1,Male,Yes,No,Fiber optic,One year,Yes,Bank transfer (automatic),No,Yes,Yes
+5ffa2dfd,22,65.99266953659074,1,Male,Yes,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+b4027147,21,22.225789059538734,0,Female,Yes,No,No,One year,No,Credit card (automatic),No,Yes,No
+57e2b969,51,19.744164923414093,1,Female,No,No,No,Two year,No,Credit card (automatic),No,Yes,Yes
+d14bae73,72,49.22580287587406,0,Female,Yes,No,DSL,Two year,Yes,Bank transfer (automatic),No,No,No
+1a207457,3,56.73035610663339,0,Female,No,No,DSL,Month-to-month,Yes,Electronic check,No,No,No
+7f4ced78,42,88.52833917591657,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,No
+c33420c4,24,76.70868758656728,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+151c04d2,32,23.390506330989986,0,Female,Yes,Yes,No,Two year,No,Credit card (automatic),No,Yes,No
+0a6fa719,69,43.62738891994897,1,Male,Yes,No,DSL,Two year,Yes,Electronic check,No,Yes,Yes
+78d8fd9a,17,82.54961766474133,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+54635022,60,80.46045741109471,0,Male,Yes,Yes,Fiber optic,Month-to-month,No,Bank transfer (automatic),No,Yes,No
+c4fc3f23,4,82.47910185438752,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+78bd7444,67,81.7631612097594,0,Male,Yes,No,DSL,Two year,No,Credit card (automatic),No,No,Yes
+a5e96d98,37,100.8779032561268,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+cfeaaa22,11,19.268629714022307,0,Female,No,No,No,One year,No,Credit card (automatic),No,No,Yes
+4f3a5ee8,19,51.64480091459306,0,Male,No,No,DSL,Month-to-month,Yes,Credit card (automatic),No,No,No
+6eb1cecf,22,50.89252570369414,0,Female,Yes,No,DSL,Month-to-month,No,Electronic check,No,Yes,No
+010a5729,44,79.72829082383366,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+d66c2fca,59,117.94776152177093,1,Male,No,No,Fiber optic,One year,Yes,Bank transfer (automatic),No,No,Yes
+4b8dd702,20,91.03508305690714,0,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+8e2a623a,71,18.96529660656866,0,Female,Yes,No,No,Two year,No,Credit card (automatic),No,Yes,No
+1e3ca143,66,54.66503112107145,0,Male,Yes,No,DSL,One year,Yes,Credit card (automatic),No,No,Yes
+241cd8fa,39,82.50974452997183,1,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,No,No
+19a7e0bf,56,94.14287772202779,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+418f5df2,61,99.84825367878383,0,Female,Yes,No,Fiber optic,One year,Yes,Credit card (automatic),No,No,Yes
+25ccb52b,26,19.9365800811304,0,Male,No,Yes,No,Two year,No,Credit card (automatic),No,Yes,No
+ec3cad62,72,17.945631997552017,0,Female,Yes,Yes,No,Two year,Yes,Mailed check,No,No,Yes
+32899589,71,99.91478444259148,0,Female,Yes,No,Fiber optic,Two year,Yes,Electronic check,No,No,Yes
+e1c688b2,15,66.10855591736515,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+e2cf4c8d,12,65.1122690833867,0,Male,No,Yes,DSL,Month-to-month,Yes,Mailed check,No,No,No
+68f584f4,13,53.303448657548266,0,Female,No,No,DSL,Month-to-month,Yes,Mailed check,No,No,No
+2aa5ab4c,2,21.279158096158987,0,Male,No,No,No,Month-to-month,No,Mailed check,No,No,No
+f344f17e,18,93.44557835491376,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,Yes,Yes
+1c6c08b1,17,37.37779236388974,0,Female,Yes,Yes,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+7f57228f,30,54.953813501131265,0,Male,Yes,Yes,DSL,One year,Yes,Credit card (automatic),No,No,Yes
+ca857500,3,49.661406715357224,0,Male,No,No,DSL,Month-to-month,Yes,Electronic check,No,Yes,Yes
+f5bd83cd,48,40.817886621687876,1,Female,No,No,DSL,Month-to-month,No,Mailed check,No,No,Yes
+f257bf44,9,77.83297893793198,1,Male,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,No,Yes
+8fc18d6f,63,104.21817870693836,0,Female,Yes,No,Fiber optic,One year,Yes,Electronic check,No,Yes,No
+840da772,0,85.12554122918004,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+a28edd1f,73,19.546734524332944,0,Male,Yes,Yes,No,Two year,No,Mailed check,No,No,Yes
+aaeffa71,5,19.966379748874,0,Female,No,No,No,Month-to-month,No,Mailed check,No,Yes,No
+b5c73f74,63,64.90217349987107,0,Male,No,No,DSL,Two year,No,Bank transfer (automatic),No,Yes,No
+1896a37b,46,109.38634106765355,0,Female,Yes,Yes,Fiber optic,Two year,No,Mailed check,No,No,Yes
+fdef5b3f,46,83.24818186968506,0,Male,Yes,Yes,Fiber optic,Month-to-month,No,Electronic check,No,No,Yes
+8f66ed80,69,93.4911615588302,0,Female,Yes,No,DSL,Two year,No,Credit card (automatic),No,Yes,Yes
+bc7cd8eb,5,18.911255329482284,0,Male,No,No,No,Month-to-month,No,Mailed check,No,No,Yes
+29c89a2b,63,102.32629333774098,0,Female,No,No,Fiber optic,Two year,No,Electronic check,No,No,Yes
+27f301da,63,77.59193208790089,0,Female,Yes,No,DSL,Two year,Yes,Credit card (automatic),No,No,No
+17b1e884,72,75.49166304959734,0,Male,Yes,No,DSL,Two year,Yes,Credit card (automatic),No,Yes,No
+766b1b58,24,32.31044604709712,0,Male,No,No,DSL,Month-to-month,No,Electronic check,No,No,No
+75650e26,0,20.551153874828657,0,Male,No,No,No,Month-to-month,No,Credit card (automatic),No,Yes,No
+997388de,65,65.93535547424922,0,Male,Yes,Yes,DSL,Two year,Yes,Bank transfer (automatic),No,Yes,Yes
+e37c3779,12,113.0251490855409,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+1a998c44,61,89.6462161149787,0,Female,Yes,Yes,DSL,Two year,No,Credit card (automatic),No,No,Yes
+989f9fad,42,52.67689209835008,0,Female,No,No,DSL,One year,Yes,Credit card (automatic),No,Yes,No
+23326ac5,49,103.12221704663781,0,Male,Yes,Yes,Fiber optic,One year,Yes,Electronic check,No,No,No
+b0071a47,38,19.2314764703768,0,Female,Yes,Yes,No,Two year,No,Mailed check,No,Yes,No
+e58dba44,3,91.81258321472596,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+8dcdb2d2,21,103.64268470683102,1,Male,Yes,Yes,Fiber optic,One year,No,Credit card (automatic),No,No,Yes
+d9384f50,29,54.14755832006973,0,Male,Yes,Yes,DSL,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+1d8c20b9,45,94.9373253882311,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+f7b9a184,17,60.70597918985658,0,Male,No,No,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,Yes
+b8be7bc5,54,75.52520297367694,1,Female,Yes,Yes,DSL,Two year,Yes,Credit card (automatic),No,Yes,Yes
+ca5d1c9f,0,64.21567061902556,1,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+a44d4cdf,45,19.837443997270302,0,Male,No,No,No,One year,Yes,Mailed check,No,Yes,No
+b5aa7693,58,17.42199238379634,0,Male,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,Yes,No
+05282b8c,22,18.508987705987217,0,Female,No,No,No,Month-to-month,Yes,Mailed check,No,Yes,Yes
+06bd3ea3,43,101.54024342794317,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,No
+3ec86e5e,4,17.416485466730634,0,Male,No,No,No,One year,No,Mailed check,No,No,No
+dfa22708,16,65.1705900900986,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+cdca8925,24,71.41375398625145,0,Male,No,No,Fiber optic,Month-to-month,No,Electronic check,No,Yes,Yes
+fd0afeab,41,20.840442568737842,0,Male,No,No,No,Two year,No,Mailed check,No,Yes,No
+a1c05433,71,103.90429534479162,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+df9e073e,4,24.086930393733823,0,Female,No,No,DSL,Month-to-month,No,Electronic check,No,No,Yes
+4eab04d1,36,84.899118653596,0,Male,No,No,Fiber optic,One year,No,Credit card (automatic),No,No,No
+d133077b,68,108.69095656270095,0,Female,No,No,Fiber optic,Two year,Yes,Credit card (automatic),No,Yes,No
+2ea37d26,30,104.57867535812416,0,Male,No,No,Fiber optic,One year,Yes,Electronic check,Yes,Yes,Yes
+7f4292fe,15,54.0444700971492,0,Female,Yes,Yes,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+49549648,9,86.10029070049146,0,Female,No,No,Fiber optic,Month-to-month,No,Electronic check,Yes,Yes,Yes
+44c7587a,8,71.2344766803294,0,Male,No,No,Fiber optic,Month-to-month,No,Electronic check,No,Yes,Yes
+d236ac5d,39,106.25558230217773,0,Female,Yes,Yes,Fiber optic,One year,Yes,Bank transfer (automatic),No,Yes,No
+bead983b,21,94.31612308781878,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+b1dcf422,69,57.85053622988969,0,Female,No,No,DSL,One year,No,Credit card (automatic),No,No,No
+6f95f9a9,46,73.38427211820573,0,Female,Yes,No,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+ed36e7fb,27,103.52935423677539,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+7cb73a57,8,68.37555995794904,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+7925a4cd,19,93.20778633805959,0,Male,No,No,Fiber optic,Month-to-month,No,Credit card (automatic),No,Yes,No
+ab6a8b9e,10,94.403303838774,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+0420fff2,75,104.73923864734844,0,Female,Yes,Yes,Fiber optic,One year,Yes,Credit card (automatic),No,Yes,No
+75939845,32,63.10204480933051,0,Female,No,Yes,DSL,Two year,No,Credit card (automatic),No,Yes,Yes
+3ec4aa12,25,24.60415245985896,1,Female,Yes,No,No,Month-to-month,No,Mailed check,No,No,No
+f00be836,4,47.4822667958828,1,Male,No,No,DSL,Month-to-month,No,Electronic check,No,No,No
+122fcbbe,0,70.68891190870507,0,Female,No,No,Fiber optic,Month-to-month,No,Electronic check,No,No,Yes
+bcbaf5d2,30,92.78257545560014,0,Male,Yes,Yes,Fiber optic,One year,No,Bank transfer (automatic),No,No,No
+7c067625,15,99.19354995103745,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+57acc7ac,11,75.1286419650204,0,Male,No,Yes,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,Yes,Yes
+a7b573ea,71,81.23130552510408,0,Male,Yes,No,DSL,Two year,No,Mailed check,No,Yes,No
+f347b302,55,77.72186674121005,0,Male,No,Yes,DSL,Two year,Yes,Mailed check,No,No,Yes
+29163930,66,108.35718392082836,1,Male,Yes,No,Fiber optic,One year,Yes,Electronic check,Yes,Yes,Yes
+ff09b62d,68,21.178704866682942,0,Female,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,Yes,Yes
+07c35be8,4,72.25958960657844,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+39f45af4,16,79.2795705824781,0,Male,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,No,Yes
+943d4015,38,44.0551647949719,0,Female,No,No,DSL,Month-to-month,Yes,Credit card (automatic),No,No,No
+4f73d7be,3,71.69366928739282,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+792cb26e,55,97.64878661210687,0,Male,Yes,No,Fiber optic,Month-to-month,No,Mailed check,No,No,Yes
+4533e9a1,53,17.556873847630882,0,Male,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,Yes,Yes
+56824df0,9,60.07968632914627,0,Female,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+f7d7945d,29,25.80361956433744,1,Female,Yes,No,No,Month-to-month,No,Mailed check,No,Yes,No
+a34bceaa,30,94.70749508578992,0,Male,No,No,Fiber optic,One year,No,Bank transfer (automatic),No,Yes,Yes
+5897569b,65,89.18178060489328,0,Male,No,No,DSL,Two year,No,Credit card (automatic),No,Yes,Yes
+982998f0,11,88.23455866738067,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+f6ca5a57,25,88.16841936118398,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+3ca20abf,17,109.90623119644454,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+8e4b6935,10,82.66138670088034,1,Female,No,No,Fiber optic,Month-to-month,No,Bank transfer (automatic),Yes,No,Yes
+4a9b8285,62,26.364216022084353,0,Female,No,No,No,Two year,No,Bank transfer (automatic),No,Yes,Yes
+8c5b7831,3,47.74490013695467,0,Female,No,No,DSL,Month-to-month,Yes,Mailed check,Yes,No,Yes
+c6472780,70,63.22625909612445,0,Male,Yes,Yes,DSL,Two year,No,Credit card (automatic),No,No,Yes
+3887f908,0,55.479269700351814,0,Female,No,No,DSL,Month-to-month,No,Electronic check,No,No,Yes
+0bc48ebd,53,20.974119810943403,0,Female,Yes,Yes,No,One year,Yes,Bank transfer (automatic),No,No,No
+f8ce554d,54,19.97800561510413,0,Female,No,No,No,Two year,No,Mailed check,No,Yes,No
+181dfc26,70,95.73375450853109,0,Male,No,No,Fiber optic,Two year,Yes,Bank transfer (automatic),No,No,Yes
+77ad4d4c,30,93.82922530491466,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+fe579704,17,39.30238913913105,1,Male,No,No,DSL,Month-to-month,Yes,Mailed check,Yes,Yes,No
+f4db5dac,71,89.3876252311077,1,Male,Yes,No,Fiber optic,Two year,Yes,Credit card (automatic),No,No,No
+ca89f862,2,67.56413100930546,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+4f55dd66,33,81.28816935705663,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+ed187f5f,66,107.79802900588555,0,Female,Yes,No,Fiber optic,One year,Yes,Credit card (automatic),No,No,No
+bed20c84,44,80.80589233814501,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+ea3d24c4,7,21.434759465262566,0,Male,Yes,Yes,No,Two year,No,Mailed check,No,No,No
+26c29c5a,17,63.37688024654522,0,Female,Yes,No,DSL,Month-to-month,Yes,Bank transfer (automatic),Yes,No,No
+ecf6a05b,70,19.46158498043945,0,Male,No,No,No,Two year,Yes,Mailed check,No,Yes,Yes
+c2f4cab7,15,92.13076375418763,0,Female,No,Yes,Fiber optic,Month-to-month,Yes,Mailed check,No,No,No
+fce39cb3,0,52.50020769351129,0,Male,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,No,Yes
+49fd855f,25,90.09794505166457,1,Female,Yes,No,Fiber optic,Month-to-month,No,Bank transfer (automatic),No,No,Yes
+e8bc493b,60,24.59698876015151,0,Male,No,No,No,Two year,No,Bank transfer (automatic),No,No,No
+eeffa2d6,33,99.47040965817585,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+0ca6af9f,31,89.82778493472762,0,Male,Yes,No,Fiber optic,One year,Yes,Electronic check,Yes,Yes,Yes
+60d28fed,48,96.40110363580602,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+1533a2b4,63,103.06901067879828,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+b71dd5fe,44,104.32530844074816,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+ca65439a,13,105.49969603400466,0,Male,Yes,Yes,Fiber optic,Month-to-month,No,Electronic check,No,Yes,Yes
+fe12f49c,3,75.43416711521311,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,No
+7b652c2f,25,44.82917603473649,0,Male,No,No,DSL,One year,Yes,Bank transfer (automatic),Yes,No,Yes
+270fa5f7,3,20.211595155753116,0,Female,No,Yes,No,Month-to-month,No,Credit card (automatic),No,Yes,No
+0abaf047,10,54.3526917644564,0,Female,Yes,Yes,DSL,One year,No,Bank transfer (automatic),No,Yes,No
+6c49e30d,57,96.57437355028404,0,Female,Yes,Yes,Fiber optic,One year,No,Credit card (automatic),No,No,Yes
+db888b43,62,92.95165002643283,0,Male,No,No,Fiber optic,One year,No,Electronic check,No,No,Yes
+e991f095,36,108.87944535761642,0,Female,No,Yes,Fiber optic,Two year,Yes,Credit card (automatic),No,Yes,No
+1d83d8a2,48,85.96039991745201,1,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,No,No
+6663c560,7,103.67966411622308,1,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,Yes,Yes
+9f845660,67,118.36558808422497,0,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,Yes
+3d43d86e,2,48.924586322458,0,Female,No,No,DSL,Month-to-month,No,Bank transfer (automatic),No,Yes,No
+6a7f7a43,58,48.107874179468894,0,Male,No,No,DSL,One year,No,Mailed check,No,No,Yes
+a1315538,61,36.54906223401283,0,Male,Yes,Yes,DSL,Month-to-month,No,Bank transfer (automatic),No,Yes,Yes
+9459f851,33,21.4500180063039,0,Male,No,Yes,No,Two year,No,Mailed check,No,No,Yes
+fc1b0a8c,73,114.23229257454788,0,Male,Yes,Yes,Fiber optic,One year,Yes,Bank transfer (automatic),No,No,No
+b6b4e9fb,23,48.12433655655866,0,Female,No,No,DSL,Month-to-month,Yes,Electronic check,No,Yes,Yes
+e0ec2b5b,64,87.40474459787133,0,Female,Yes,No,Fiber optic,One year,Yes,Mailed check,No,Yes,No
+1a9760d5,2,18.280150668109385,0,Female,No,No,No,Month-to-month,Yes,Mailed check,No,No,Yes
+62c9180e,64,52.04749535724931,0,Male,No,No,DSL,One year,Yes,Bank transfer (automatic),No,No,No
+3fe99805,0,53.73974502016539,0,Female,Yes,No,DSL,Month-to-month,Yes,Mailed check,No,Yes,Yes
+db85624d,69,66.97561840488855,1,Male,Yes,No,DSL,Two year,No,Bank transfer (automatic),No,Yes,Yes
+6d8a05c6,6,86.65306691919623,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+b0876c4a,49,88.35799657966201,0,Male,Yes,No,Fiber optic,One year,Yes,Credit card (automatic),No,Yes,Yes
+972fcad9,71,24.11448332569237,0,Female,No,No,No,Two year,No,Credit card (automatic),No,No,No
+70218871,13,66.95038263179461,0,Female,No,No,DSL,Month-to-month,Yes,Mailed check,No,No,Yes
+d44bd1d8,51,92.11291808605692,0,Female,Yes,Yes,Fiber optic,One year,Yes,Bank transfer (automatic),No,Yes,Yes
+45457b98,31,83.62774830602059,0,Male,Yes,Yes,Fiber optic,Month-to-month,No,Electronic check,No,No,No
+f681a472,56,54.47966524133396,0,Female,Yes,No,DSL,Two year,No,Mailed check,No,No,Yes
+0dee3d43,5,22.50047013622416,0,Male,No,No,No,Month-to-month,No,Mailed check,No,Yes,Yes
+f00a53b9,38,53.95807024137133,0,Female,No,No,DSL,One year,Yes,Credit card (automatic),No,No,Yes
+fc988e2f,43,26.484012446669254,0,Female,Yes,Yes,No,Month-to-month,Yes,Electronic check,No,Yes,No
+4438a77e,67,104.25877844937018,1,Male,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,Yes
+d521aead,59,125.4240567922267,0,Male,No,No,Fiber optic,One year,Yes,Credit card (automatic),No,No,Yes
+13f0461c,61,18.258313242823824,0,Female,Yes,Yes,No,Two year,Yes,Mailed check,No,Yes,Yes
+d53fa092,3,71.22176990125914,0,Female,No,No,DSL,One year,No,Credit card (automatic),No,No,Yes
+817698ee,4,87.72494111787631,0,Male,No,No,Fiber optic,Month-to-month,No,Mailed check,Yes,Yes,No
+666fd37c,65,37.10634728589118,0,Male,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+6fc8f326,42,54.87891821141236,1,Female,No,No,DSL,Month-to-month,No,Electronic check,No,Yes,Yes
+ddcec75b,73,125.05104256620545,0,Male,Yes,No,Fiber optic,Two year,No,Credit card (automatic),No,No,Yes
+89d89ab7,13,74.68029787229965,0,Female,No,No,Fiber optic,Month-to-month,No,Bank transfer (automatic),No,Yes,Yes
+7d63e764,7,20.31594454879569,0,Female,No,No,No,Month-to-month,No,Mailed check,No,Yes,Yes
+0030542a,45,32.16895600065108,1,Female,No,No,DSL,One year,No,Electronic check,No,Yes,No
+a1b1e646,63,108.27108085045067,1,Male,Yes,Yes,Fiber optic,One year,Yes,Electronic check,No,No,No
+43b38b60,16,91.86295358084304,0,Male,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+ead985ff,41,93.90436428184928,0,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,Yes,Yes
+52e25cc5,2,66.91092469897677,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,No
+63732e88,69,86.49313384870916,1,Male,Yes,No,DSL,Two year,Yes,Credit card (automatic),No,No,No
+7f380a69,11,39.611294126669286,0,Female,No,No,DSL,Month-to-month,No,Electronic check,No,No,No
+a6c57855,57,18.549885746481674,0,Male,Yes,Yes,No,Two year,No,Mailed check,No,No,No
+a3199cbd,28,59.750202729589724,0,Male,No,No,DSL,Two year,Yes,Mailed check,No,No,No
+1756fb23,41,94.94868133186581,1,Male,No,No,Fiber optic,Month-to-month,No,Electronic check,No,No,Yes
+ebe5da40,44,78.33116279180629,0,Male,Yes,No,DSL,Two year,No,Electronic check,No,No,No
+dd4ce164,69,56.54969664409803,0,Female,No,No,DSL,One year,Yes,Credit card (automatic),No,No,Yes
+29ce4e05,18,70.54298684682011,0,Male,No,No,DSL,Month-to-month,Yes,Electronic check,No,No,Yes
+dada1ee4,34,85.59477461187724,0,Male,Yes,Yes,Fiber optic,One year,No,Credit card (automatic),No,No,No
+1c7888aa,32,27.251666216436707,0,Male,No,No,No,Month-to-month,Yes,Electronic check,No,Yes,Yes
+72f09843,18,91.98045805674244,0,Female,No,No,DSL,Month-to-month,No,Mailed check,No,No,No
+9565cace,56,94.04390084299995,0,Female,No,No,Fiber optic,One year,Yes,Bank transfer (automatic),Yes,Yes,No
+39dec236,59,97.81587108952412,1,Female,Yes,No,Fiber optic,One year,Yes,Credit card (automatic),No,No,Yes
+3c71242c,69,118.15522099563408,0,Male,Yes,No,Fiber optic,One year,No,Credit card (automatic),No,Yes,Yes
+e86782b6,13,69.84930051662879,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+69578349,63,117.80173535683386,0,Female,Yes,No,Fiber optic,One year,Yes,Electronic check,Yes,Yes,No
+3cbe27c6,58,90.50061945402588,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+c9c42c3c,1,36.77411593381626,0,Male,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),Yes,No,Yes
+f7ed946f,42,31.205453349330952,1,Female,No,No,DSL,One year,No,Electronic check,No,Yes,Yes
+203960e2,65,111.81262688635618,0,Male,Yes,No,Fiber optic,One year,No,Electronic check,Yes,Yes,Yes
+23ff22b8,30,95.43673607307579,1,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+031c9d9e,8,48.666464944930716,0,Female,No,No,DSL,Month-to-month,No,Bank transfer (automatic),No,No,Yes
+adff6516,36,85.99218815353863,0,Male,No,No,Fiber optic,Two year,No,Bank transfer (automatic),No,No,No
+02ff8b8e,5,41.43262434279643,1,Female,No,No,DSL,Month-to-month,No,Electronic check,No,Yes,No
+9461b42b,18,99.97449345681657,0,Male,Yes,Yes,Fiber optic,One year,Yes,Electronic check,Yes,Yes,No
+40540cd9,1,76.42856336150399,1,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,No
+c9c49c19,11,74.5607270036374,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,No,Yes
+ce1fc668,15,79.04669084084783,0,Male,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,Yes,Yes
+e016e207,62,59.57624960431366,0,Female,Yes,Yes,DSL,Two year,Yes,Bank transfer (automatic),No,Yes,No
+ffefce6c,71,23.152004869715253,0,Male,Yes,Yes,No,Two year,No,Credit card (automatic),No,Yes,No
+06cbaf10,30,20.276000268149264,0,Female,No,No,No,Two year,Yes,Mailed check,No,Yes,Yes
+af896413,6,46.6584003953657,0,Female,No,No,DSL,Month-to-month,No,Bank transfer (automatic),No,Yes,Yes
+21d1fe7e,18,93.36338036350635,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+68cb80d9,53,58.49323587126374,0,Female,Yes,No,DSL,One year,Yes,Mailed check,No,Yes,Yes
+08d9ee0e,3,33.84095106448422,1,Female,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+83b5b459,55,65.96897191160265,0,Male,No,No,DSL,One year,Yes,Electronic check,No,Yes,Yes
+ab884120,54,19.176219360323763,0,Female,No,No,No,One year,No,Mailed check,No,Yes,Yes
+26cb045a,5,23.0834353488822,0,Female,No,No,No,One year,No,Electronic check,No,No,No
+5a14c1a1,3,24.550869516196162,0,Male,Yes,No,No,One year,No,Mailed check,No,Yes,No
+cc4b4c69,5,64.04690380744407,0,Female,No,Yes,DSL,Month-to-month,Yes,Bank transfer (automatic),No,Yes,No
+b939e695,52,117.07538135293937,0,Male,Yes,No,Fiber optic,Two year,No,Bank transfer (automatic),Yes,No,No
+658d77ca,57,86.3972240199054,0,Female,Yes,No,DSL,Two year,Yes,Electronic check,No,No,Yes
+aa2f8880,66,100.07066700984747,0,Male,No,No,Fiber optic,One year,Yes,Bank transfer (automatic),No,Yes,Yes
+2d12c722,13,67.39857375356245,1,Male,Yes,No,Fiber optic,Month-to-month,No,Bank transfer (automatic),No,No,Yes
+1cffc1e4,68,82.8718446187161,0,Male,No,Yes,Fiber optic,One year,Yes,Credit card (automatic),No,No,Yes
+949bc162,36,91.52600708913408,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+51862bbe,72,79.77753969860127,0,Male,Yes,No,DSL,Two year,Yes,Credit card (automatic),No,Yes,Yes
+a692f0bb,43,97.95525560455732,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,No
+e0cfaa96,18,21.23075989747555,0,Male,Yes,Yes,No,One year,No,Bank transfer (automatic),No,No,Yes
+536434ea,0,67.38445149122727,0,Female,No,No,Fiber optic,Month-to-month,No,Electronic check,No,Yes,No
+d47120c7,8,84.28866149492197,0,Male,No,No,Fiber optic,Month-to-month,No,Bank transfer (automatic),Yes,No,No
+f5777b05,0,75.62719534419865,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+24c54322,52,97.90025697450234,0,Female,Yes,No,Fiber optic,One year,No,Electronic check,Yes,Yes,No
+6afcc549,5,90.28075532406135,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,No
+07cf78f7,19,96.19440451631408,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+e6acf2c4,15,60.599822720327325,1,Male,Yes,No,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+2c8fe9de,4,67.57146216393832,0,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,Yes,Yes
+c9ec7602,67,63.60759213306572,0,Female,Yes,Yes,DSL,Two year,Yes,Credit card (automatic),No,No,Yes
+2f22a853,33,89.65632051373511,0,Male,No,Yes,DSL,One year,No,Credit card (automatic),No,Yes,Yes
+5d88f5df,1,20.318373651468576,0,Female,No,No,No,Month-to-month,No,Credit card (automatic),No,Yes,No
+b9ceead3,10,93.22141731231498,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+fc74b710,51,93.352738227753,1,Male,No,No,Fiber optic,One year,Yes,Electronic check,No,No,Yes
+6a8df398,2,24.46605266804071,0,Male,No,Yes,DSL,Month-to-month,No,Electronic check,Yes,Yes,No
+02719270,47,21.76897795181843,0,Male,No,No,No,Two year,No,Credit card (automatic),No,Yes,No
+574fd4d0,35,90.92873841890602,0,Male,No,Yes,DSL,One year,No,Credit card (automatic),No,No,Yes
+c9653d77,24,110.6011923067818,0,Male,Yes,Yes,Fiber optic,Month-to-month,No,Electronic check,No,No,No
+b5010a00,66,119.23907132922048,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+14128ba2,53,60.55459240397941,0,Male,Yes,No,DSL,Two year,No,Credit card (automatic),No,Yes,No
+875565e1,11,19.778910270907776,0,Male,Yes,Yes,No,One year,No,Credit card (automatic),No,Yes,No
+a95d3d70,52,98.19547105565356,0,Female,Yes,No,Fiber optic,One year,Yes,Electronic check,No,No,Yes
+a887e227,3,44.29278226972183,1,Male,No,No,DSL,Month-to-month,No,Credit card (automatic),No,Yes,No
+26c860e6,32,92.60260404318365,0,Male,Yes,No,Fiber optic,Month-to-month,No,Credit card (automatic),No,Yes,Yes
+dbddb972,6,81.54243295404517,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+01a7078c,0,69.35641034461823,0,Female,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,No,Yes
+03381aae,5,101.58597002757276,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+3b1f80b3,5,49.12748836009772,0,Male,No,No,DSL,Month-to-month,No,Credit card (automatic),Yes,Yes,No
+fab4546f,29,87.89638921649768,0,Male,No,No,Fiber optic,Month-to-month,No,Electronic check,No,No,No
+ce2a54fc,2,36.760615743167605,0,Female,No,No,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+ce491029,33,105.80632496480186,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+29d79492,0,76.24694969116337,0,Male,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,No,No
+04918a7b,59,88.32026111504075,0,Female,No,No,Fiber optic,Month-to-month,No,Mailed check,No,No,Yes
+99244326,33,19.934095221524238,0,Female,Yes,Yes,No,One year,No,Mailed check,No,Yes,No
+f0b63a70,20,22.509018275193295,0,Male,No,Yes,No,Month-to-month,No,Mailed check,No,Yes,Yes
+140f4d5d,67,21.320481126383893,0,Male,Yes,Yes,No,Two year,Yes,Mailed check,No,Yes,Yes
+0c76bac9,44,92.51558768598633,0,Female,No,No,Fiber optic,One year,No,Bank transfer (automatic),No,Yes,No
+37a084c0,69,55.49754797299027,0,Female,Yes,No,DSL,Two year,No,Bank transfer (automatic),No,Yes,No
+a9f6cf51,1,64.70594516406803,0,Male,Yes,Yes,Fiber optic,Month-to-month,No,Mailed check,No,Yes,No
+e4bf2b29,54,100.75848399565345,0,Female,Yes,No,Fiber optic,One year,Yes,Bank transfer (automatic),Yes,Yes,Yes
+9ad7478b,66,85.88873864212319,0,Male,Yes,Yes,DSL,Two year,No,Bank transfer (automatic),No,No,No
+b072a955,17,21.5088337315269,0,Female,Yes,Yes,No,Month-to-month,No,Mailed check,No,No,Yes
+7d311580,0,21.415904097620565,0,Female,Yes,No,No,Month-to-month,Yes,Mailed check,No,No,No
+04bbf331,0,18.01608499863903,0,Female,No,No,No,Month-to-month,Yes,Mailed check,No,Yes,Yes
+fc17e7ef,48,56.58594633495639,0,Male,No,No,DSL,Two year,Yes,Bank transfer (automatic),No,No,Yes
+e84d6bce,67,113.58977771643309,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+d27b5f4f,5,92.19801141921383,1,Male,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,Yes,Yes
+ba99993d,9,20.361276240661855,0,Female,No,No,No,Month-to-month,No,Mailed check,No,Yes,No
+b2c50094,20,19.912985639715533,0,Male,Yes,Yes,No,Two year,No,Mailed check,No,No,No
+4f689fe3,66,73.09479696298386,0,Male,Yes,Yes,DSL,One year,Yes,Bank transfer (automatic),Yes,Yes,Yes
+da94a88a,0,77.09583136573465,0,Female,No,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+0e8e1469,2,20.122602837610295,0,Male,No,No,No,Month-to-month,No,Mailed check,No,Yes,Yes
+5cc52116,56,99.83752016750209,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+5fa5f17b,51,39.97596156891192,0,Male,Yes,Yes,DSL,Month-to-month,Yes,Credit card (automatic),No,No,Yes
+22eed29b,0,68.92511283849801,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+08e522cb,10,19.81540431046997,0,Female,No,No,No,Month-to-month,No,Mailed check,No,No,No
+d75040d6,15,46.04099265401447,0,Male,Yes,No,DSL,Month-to-month,Yes,Mailed check,No,Yes,Yes
+622843f5,4,18.892094229667638,0,Female,Yes,Yes,No,Month-to-month,Yes,Electronic check,No,Yes,Yes
+a6da2130,57,98.33223866609877,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+b927cb9b,71,38.01711742081186,0,Male,Yes,Yes,DSL,Two year,No,Mailed check,No,Yes,No
+ce8bf7da,70,94.45302527106179,0,Male,Yes,No,Fiber optic,Two year,Yes,Bank transfer (automatic),No,Yes,Yes
+573f4f07,6,20.619440549497074,0,Male,No,No,No,One year,Yes,Mailed check,No,No,Yes
+3901a09c,4,26.285907710748383,0,Female,Yes,No,DSL,Month-to-month,Yes,Electronic check,No,Yes,Yes
+1e39e5e5,29,77.77832646863376,1,Female,Yes,No,Fiber optic,Month-to-month,No,Electronic check,Yes,No,Yes
+54716d8b,52,66.88415525411463,0,Female,Yes,No,Fiber optic,Month-to-month,No,Mailed check,No,No,Yes
+49a9e1f4,35,106.30865481407791,1,Female,No,No,Fiber optic,One year,Yes,Electronic check,No,No,No
+0ef5d31c,44,105.29321454495934,0,Male,No,No,Fiber optic,Month-to-month,No,Electronic check,Yes,No,No
+f0ddc08c,0,41.09287249950365,0,Male,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,Yes,No
+018b0c75,22,75.33415416841608,0,Female,No,No,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+94a7ee16,0,46.77666091573303,1,Male,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+7205d755,21,102.66436805642189,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+c597a3ab,52,114.1401334746532,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+9aba37a9,13,61.207866829395975,0,Male,No,No,DSL,Month-to-month,Yes,Electronic check,No,Yes,Yes
+81c42abf,6,55.987924368933804,0,Male,Yes,Yes,DSL,Month-to-month,No,Mailed check,No,No,No
+a9f1e7ee,33,58.838340836060006,0,Female,No,No,DSL,Month-to-month,Yes,Mailed check,No,No,Yes
+9a64d054,19,78.62866721065222,1,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,Yes,No
+00c3d503,5,66.6920612804826,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+c39de732,3,40.511694735552695,0,Male,No,No,DSL,Month-to-month,No,Mailed check,Yes,Yes,Yes
+b2709f5f,6,68.02100179191044,1,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+17825dfd,70,121.91530650280622,0,Male,Yes,No,Fiber optic,Two year,No,Credit card (automatic),No,Yes,Yes
+05cb27ac,25,24.431437481739877,0,Female,Yes,Yes,No,Two year,No,Mailed check,No,Yes,Yes
+c817fcb8,71,77.68216550984434,0,Male,Yes,Yes,DSL,Two year,No,Bank transfer (automatic),No,No,Yes
+4fb1d1d1,55,21.206068934723245,0,Female,Yes,Yes,No,One year,No,Bank transfer (automatic),No,Yes,Yes
+d24bffa7,20,19.908753078291877,0,Female,Yes,No,No,One year,No,Mailed check,No,No,No
+057616c7,69,67.95658510709852,0,Female,Yes,No,DSL,Two year,No,Bank transfer (automatic),No,No,No
+4de4d796,44,72.28885793897587,0,Female,No,No,Fiber optic,Month-to-month,No,Credit card (automatic),No,No,Yes
+eb5ed556,51,98.55285497820616,1,Male,No,No,Fiber optic,One year,Yes,Electronic check,No,Yes,Yes
+4e16ae16,0,91.44694635719028,0,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,No,Yes
+402eea8c,4,20.54445415966415,0,Female,Yes,Yes,No,Month-to-month,Yes,Electronic check,Yes,Yes,No
+af9e1b41,22,18.729562955302683,0,Male,No,No,No,Month-to-month,No,Mailed check,No,Yes,No
+eab8cfb7,58,17.647044193876063,0,Male,Yes,Yes,No,Two year,No,Credit card (automatic),No,No,No
+d9df382e,0,41.17262760267213,0,Male,No,No,DSL,Month-to-month,No,Mailed check,No,No,Yes
+72397c80,2,75.70262874292128,0,Female,Yes,No,DSL,Month-to-month,No,Credit card (automatic),No,No,Yes
+4ceaaa1f,40,86.21863387145017,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+ec6790b6,39,93.9359978414975,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+187038e5,74,71.25025505814236,0,Male,Yes,No,DSL,Two year,No,Credit card (automatic),No,No,No
+a4d28cc8,2,49.48726478099329,0,Male,No,No,DSL,Month-to-month,Yes,Mailed check,Yes,No,Yes
+da9fb801,3,19.43421467244024,0,Female,No,No,No,Month-to-month,No,Mailed check,No,Yes,No
+602dc1bc,1,59.1945860141128,0,Female,Yes,No,DSL,Month-to-month,No,Mailed check,No,No,No
+01fcfc44,66,89.10222859223649,0,Female,No,No,Fiber optic,One year,Yes,Bank transfer (automatic),No,Yes,Yes
+73584537,71,107.0621224163456,0,Female,Yes,Yes,Fiber optic,Two year,Yes,Credit card (automatic),No,No,Yes
+3b12ce67,71,58.21044743839371,0,Female,Yes,No,DSL,Two year,No,Bank transfer (automatic),No,No,No
+d57249fa,15,78.10182972773683,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+0a8acea8,47,19.351262672955624,0,Female,Yes,No,No,One year,No,Credit card (automatic),No,Yes,No
+cf02cdcf,7,91.08169783972184,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+b5222dff,28,98.93112977980718,0,Male,Yes,Yes,Fiber optic,One year,No,Bank transfer (automatic),No,Yes,No
+c0a2ff15,68,82.3370908604188,0,Male,Yes,Yes,DSL,Two year,Yes,Bank transfer (automatic),No,No,Yes
+4989bbda,55,86.62782079714276,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+7e9cbc65,57,101.84086408791927,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+4ba1dd87,12,29.888003393497716,0,Female,Yes,Yes,DSL,One year,No,Credit card (automatic),No,Yes,No
+0184bbb2,26,84.79039884447629,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+ea6c9a29,11,45.93168148317993,1,Female,No,No,DSL,Month-to-month,Yes,Electronic check,No,Yes,Yes
+3f523200,44,64.30082359472644,0,Male,Yes,No,DSL,Month-to-month,No,Bank transfer (automatic),No,No,Yes
+5a2bdf90,0,20.870523846313592,0,Female,No,No,No,Month-to-month,No,Mailed check,Yes,Yes,No
+9cb3af83,66,94.37614694861655,0,Male,Yes,No,Fiber optic,One year,Yes,Electronic check,Yes,Yes,Yes
+7a0a2806,0,52.49105501382611,0,Male,No,No,DSL,Month-to-month,No,Electronic check,No,No,Yes
+0126c941,67,18.370568679301677,0,Male,No,No,No,Two year,Yes,Bank transfer (automatic),No,Yes,Yes
+d7d71284,4,91.89407116557759,0,Female,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,Yes,No
+ff07563b,4,45.81366685746562,0,Male,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+101aa553,10,58.56652955461934,0,Male,No,Yes,DSL,Month-to-month,No,Electronic check,Yes,No,No
+97ef5ffa,25,95.05088209002669,0,Male,Yes,No,Fiber optic,Month-to-month,No,Credit card (automatic),No,Yes,Yes
+e366662f,8,72.77705612538537,1,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,Yes,Yes
+0d5449af,48,73.9557193374666,0,Male,No,No,DSL,One year,Yes,Bank transfer (automatic),No,No,No
+aac0ce0e,47,74.58296992921728,0,Male,Yes,No,DSL,One year,Yes,Credit card (automatic),No,No,Yes
+d466a841,3,93.182693810872,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+bcad2181,66,80.90870001239442,0,Female,Yes,Yes,DSL,One year,No,Credit card (automatic),No,No,Yes
+17135da8,11,85.65709558471606,0,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,Yes,Yes
+a0fadb4e,21,113.43348400181597,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,Yes,No
+55ed1e87,5,21.267662958331186,0,Male,No,Yes,No,Month-to-month,Yes,Mailed check,No,Yes,Yes
+5f8a38f3,61,101.93424581470745,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+d91135e8,31,51.32188559780319,1,Male,Yes,No,DSL,Month-to-month,Yes,Bank transfer (automatic),Yes,Yes,No
+46a42c13,57,103.68738041744903,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+0b085488,2,68.550790433179,1,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+ed94bd7a,61,65.81298466959456,0,Male,No,No,DSL,Two year,No,Electronic check,No,No,No
+ad42c363,13,107.20979133831672,0,Male,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,No,Yes
+19fb1327,70,103.44619645298849,1,Female,No,No,Fiber optic,Two year,No,Electronic check,No,No,No
+01ce5983,55,107.76156185236235,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,Yes
+9ff6e800,62,93.11501052567921,0,Female,Yes,No,Fiber optic,Month-to-month,No,Electronic check,No,Yes,Yes
+65ab1605,64,74.3445129822331,0,Female,Yes,No,DSL,Two year,Yes,Mailed check,No,Yes,No
+9b9e18a4,21,49.10720391851401,0,Male,Yes,Yes,DSL,One year,Yes,Bank transfer (automatic),No,Yes,No
+fc279672,24,53.40332925343382,0,Male,Yes,Yes,DSL,Month-to-month,Yes,Mailed check,No,Yes,No
+d704660b,16,88.4644300930947,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+bac8c371,66,77.11430463998732,0,Female,Yes,Yes,DSL,Two year,No,Credit card (automatic),No,Yes,Yes
+8288a9b0,9,103.49700404580504,0,Male,No,No,Fiber optic,Month-to-month,No,Mailed check,Yes,Yes,Yes
+05b52482,71,83.8445721087097,0,Male,Yes,No,DSL,Two year,No,Mailed check,No,Yes,Yes
+4386eae1,0,89.27591578188469,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+9ed74be3,4,54.01269382772321,0,Male,No,No,DSL,Month-to-month,No,Electronic check,No,Yes,Yes
+aa8a5744,0,82.4353674844659,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+f50d732a,57,83.5393353618869,0,Female,Yes,Yes,DSL,Two year,Yes,Bank transfer (automatic),No,No,Yes
+c4a0b108,5,58.291958002150466,0,Male,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+c98be8e9,5,93.63271349295538,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+0525f974,21,23.545625168173093,0,Male,No,No,No,Month-to-month,Yes,Credit card (automatic),No,No,Yes
+df162687,26,35.70279506915753,1,Female,Yes,Yes,DSL,Month-to-month,Yes,Mailed check,No,No,Yes
+b209efcf,1,19.896772492662418,0,Female,No,No,No,Month-to-month,No,Electronic check,Yes,Yes,No
+288a13e3,6,86.1751291795192,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+15812514,36,58.26463338977203,0,Female,Yes,No,DSL,Month-to-month,No,Electronic check,Yes,No,Yes
+8bc136bd,5,68.77739157210829,1,Male,No,No,Fiber optic,Month-to-month,Yes,Mailed check,No,No,Yes
+81c2d2c7,71,24.45883939542428,0,Male,Yes,No,No,Two year,No,Bank transfer (automatic),No,Yes,Yes
+dff491c7,10,19.805441927719052,0,Female,Yes,Yes,No,One year,No,Mailed check,No,Yes,No
+2ff7e628,13,18.371925738671273,0,Male,Yes,No,No,One year,No,Mailed check,No,No,Yes
+519db7bd,65,82.73377125842961,0,Male,Yes,Yes,DSL,Two year,Yes,Credit card (automatic),No,No,Yes
+aa2a157a,15,38.339821411730966,0,Female,Yes,No,DSL,Month-to-month,Yes,Electronic check,Yes,Yes,No
+dd62ac4e,18,66.18400431599434,0,Male,Yes,Yes,DSL,One year,Yes,Bank transfer (automatic),No,No,Yes
+9f1c8cb0,11,20.325686736784863,0,Female,Yes,Yes,No,Two year,No,Mailed check,No,Yes,No
+6e688540,17,18.73697068800657,0,Female,No,No,No,Month-to-month,Yes,Credit card (automatic),No,No,Yes
+6ac41cc2,2,43.63356118942905,0,Female,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,No,Yes
+9293f7c8,4,61.74714793293523,0,Male,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,No,Yes
+d2708940,34,104.3333788024251,1,Male,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+c7626546,27,87.94716694678812,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+81467687,70,78.37459591995103,0,Male,Yes,Yes,DSL,Two year,Yes,Bank transfer (automatic),No,Yes,Yes
+c1cd8bca,23,19.354693657649126,0,Male,Yes,Yes,No,One year,No,Electronic check,No,No,No
+ab4c7267,3,76.23834354884134,0,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,No
+de8a44be,47,44.35812665275296,0,Female,Yes,No,DSL,Month-to-month,No,Bank transfer (automatic),No,No,Yes
+c1512d8f,63,106.28421435916974,1,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+4a56e526,59,95.42112855578894,0,Female,Yes,Yes,Fiber optic,One year,No,Bank transfer (automatic),No,Yes,Yes
+ad4b4c86,2,70.17572550233947,1,Male,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,Yes,No
+74cb1645,22,48.18999980923306,0,Female,No,Yes,DSL,One year,Yes,Credit card (automatic),No,No,Yes
+edb48366,43,19.51826172933295,0,Male,No,No,No,One year,No,Bank transfer (automatic),No,Yes,Yes
+3c6eb3cf,10,104.48876113965103,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,Yes,Yes
+4d0def6c,5,92.85032742890976,0,Male,No,Yes,Fiber optic,Month-to-month,No,Mailed check,Yes,No,No
+b3ba121f,14,82.56146475924757,0,Female,No,Yes,DSL,Two year,No,Credit card (automatic),No,No,Yes
+d34bae6d,9,74.55097443800528,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+7af8679c,38,20.245195775622275,0,Male,No,No,No,Two year,No,Bank transfer (automatic),No,Yes,No
+5369628d,48,45.09269706124598,0,Female,No,No,DSL,Month-to-month,Yes,Electronic check,No,Yes,No
+5ce5b368,41,68.35073456781366,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+5663c959,6,25.623745671312616,0,Male,Yes,Yes,No,One year,No,Credit card (automatic),No,Yes,Yes
+e6bd4cf5,5,48.9119198002687,0,Male,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+37affc7e,52,19.399957182491534,0,Male,Yes,No,No,Two year,No,Electronic check,No,No,Yes
+a9284065,3,17.328480982209005,0,Female,No,No,No,Month-to-month,No,Bank transfer (automatic),No,Yes,No
+70a193df,15,20.046570588763423,0,Male,No,No,No,Two year,No,Credit card (automatic),No,No,Yes
+8b358dc7,0,75.62833618331007,0,Female,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,No,Yes
+f7c55dfe,70,25.56630344849916,0,Female,Yes,No,No,Two year,Yes,Credit card (automatic),No,No,Yes
+a9f1501c,48,18.63496515787617,0,Female,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,No,Yes
+6dd41864,18,76.28885538493239,0,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,No
+38eeec51,9,18.482464745794218,0,Female,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,No,No
+149de6ab,0,37.163356688863786,1,Male,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,No,No
+4db68b99,62,84.0822213312885,0,Female,Yes,Yes,DSL,Two year,No,Bank transfer (automatic),No,No,Yes
+bb501f48,10,26.738934240590876,0,Male,No,No,DSL,Month-to-month,No,Mailed check,Yes,Yes,No
+14ec0e71,55,20.986442014300835,0,Male,Yes,Yes,No,One year,Yes,Credit card (automatic),No,Yes,Yes
+5381e97b,26,21.261755697897218,0,Female,Yes,Yes,No,One year,No,Mailed check,No,Yes,Yes
+fc87b80b,35,104.74356264925441,0,Male,No,No,Fiber optic,One year,Yes,Electronic check,No,No,Yes
+e2856f38,46,20.007338538747778,0,Male,Yes,Yes,No,Two year,No,Mailed check,No,No,No
+0c0c035b,63,112.97395400799293,0,Male,Yes,Yes,Fiber optic,Two year,No,Mailed check,No,No,Yes
+ee37aa5f,50,25.910878261671332,0,Male,No,Yes,No,Two year,No,Credit card (automatic),No,Yes,Yes
+9f98d9ff,28,92.10939464313572,1,Male,Yes,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,Yes,No
+8e630ddd,60,95.03807641306948,0,Female,No,No,DSL,Two year,No,Credit card (automatic),No,No,Yes
+f0be72c3,13,21.982393197321276,0,Female,No,No,No,One year,No,Credit card (automatic),No,No,Yes
+38e24911,11,79.56553089296324,0,Female,No,No,Fiber optic,Month-to-month,No,Electronic check,Yes,No,No
+6b5e4db1,24,20.96624557489675,1,Male,No,No,No,One year,No,Credit card (automatic),No,No,No
+77e8ac11,15,93.91116860584066,0,Female,No,No,Fiber optic,Month-to-month,No,Electronic check,Yes,Yes,Yes
+4c9c6932,2,26.023795261084437,0,Female,No,No,DSL,Month-to-month,No,Electronic check,Yes,No,Yes
+0685af8e,27,90.36030009625429,0,Male,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,Yes
+f341eefd,35,101.42816621044766,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+f35926f9,38,94.65554172376639,0,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,Yes
+1a803382,38,117.7064917758309,1,Male,Yes,Yes,Fiber optic,One year,Yes,Electronic check,Yes,Yes,No
+861af652,18,56.772999207914445,0,Female,No,Yes,DSL,Two year,No,Mailed check,No,No,No
+7ff0490d,34,69.8290934322338,0,Male,Yes,Yes,DSL,One year,Yes,Bank transfer (automatic),No,No,No
+9208f48c,56,96.54838091034337,0,Male,Yes,Yes,Fiber optic,One year,Yes,Electronic check,No,Yes,Yes
+90cc0156,0,86.79842709837799,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+a8f0f73e,26,18.507674973445496,0,Male,No,No,No,One year,No,Credit card (automatic),No,No,Yes
+e4ae9dc9,2,56.683924103099436,0,Male,No,No,DSL,Month-to-month,No,Electronic check,Yes,No,No
+00267382,58,104.0364581373219,0,Male,Yes,Yes,Fiber optic,One year,No,Credit card (automatic),No,Yes,No
+96f5c14f,17,51.0204300636664,0,Female,No,Yes,DSL,Month-to-month,No,Mailed check,No,Yes,No
+fe07f065,59,88.7163207665534,0,Female,Yes,Yes,DSL,Two year,No,Mailed check,No,Yes,Yes
+2760c3ce,68,94.11078828196067,0,Female,Yes,No,DSL,Two year,No,Credit card (automatic),No,Yes,No
+390907d5,72,83.3112048032044,0,Male,Yes,Yes,DSL,Two year,No,Credit card (automatic),No,No,No
+9f87f243,3,87.06677861112128,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,No
+ec46a4de,33,50.997719839230925,0,Female,Yes,No,DSL,Month-to-month,No,Bank transfer (automatic),No,Yes,Yes
+4d27cd0a,46,63.84374562734049,0,Male,No,No,DSL,One year,No,Electronic check,No,No,No
+5b987cdc,18,54.64619809557496,0,Female,No,No,DSL,Month-to-month,Yes,Mailed check,No,No,Yes
+c0eca0ec,23,84.85434959680603,1,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+2b1fe496,24,55.047967723957164,0,Male,No,No,DSL,Two year,No,Bank transfer (automatic),No,Yes,Yes
+ba891345,45,63.5414460103115,0,Female,Yes,Yes,DSL,Two year,Yes,Credit card (automatic),No,No,Yes
+85ae0131,51,91.82375814676477,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+9ef50636,59,68.76769109911037,1,Female,Yes,No,DSL,One year,Yes,Credit card (automatic),No,No,Yes
+f62d0b12,48,90.33523837824708,0,Female,No,No,Fiber optic,Month-to-month,No,Bank transfer (automatic),Yes,No,Yes
+fca96a1b,34,19.8068258544689,0,Male,No,No,No,Two year,No,Mailed check,No,Yes,Yes
+ddc892f1,70,23.21800713890376,0,Female,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,No,Yes
+7251589e,15,51.898489117902216,0,Female,Yes,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+13aa7c1e,41,105.73588639552999,1,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,No,Yes
+ba01f591,67,107.02319224443337,1,Female,Yes,No,Fiber optic,Two year,No,Credit card (automatic),No,Yes,No
+ad784898,0,72.4700263061012,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+3c3c56f9,49,17.992414456913295,0,Female,Yes,Yes,No,One year,No,Credit card (automatic),No,No,No
+e68143c7,0,21.42227220823829,0,Male,No,No,No,Month-to-month,Yes,Mailed check,Yes,No,Yes
+717247d4,7,74.3292331150459,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+972f9940,14,80.89246948868355,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+8a1e258a,34,69.25341224352911,0,Male,Yes,Yes,DSL,One year,Yes,Bank transfer (automatic),No,No,Yes
+a00da60b,38,20.727626372573077,0,Female,No,No,No,One year,No,Mailed check,No,Yes,No
+3907793c,74,26.61895519692058,0,Female,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,Yes,No
+9f1c73ee,31,90.59394180170136,0,Male,Yes,Yes,Fiber optic,One year,No,Bank transfer (automatic),No,No,No
+5cf89a11,2,27.867895674655532,0,Female,Yes,Yes,DSL,Month-to-month,Yes,Mailed check,No,No,Yes
+55ad42c7,12,101.49921389961204,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+27c28c80,8,50.57310533784435,0,Female,No,No,DSL,Month-to-month,No,Electronic check,No,No,Yes
+07b122de,31,109.85949526312827,0,Female,No,Yes,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+ee5e213a,12,97.9109172952484,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+148cfb2d,60,64.36441744073987,0,Male,Yes,Yes,DSL,Two year,No,Electronic check,No,Yes,No
+45ce4789,37,89.71759760779912,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+c03509ba,72,90.86920642391547,0,Female,Yes,No,Fiber optic,Two year,Yes,Bank transfer (automatic),Yes,No,No
+5f693982,70,19.710330027397298,0,Male,Yes,No,No,Two year,No,Bank transfer (automatic),No,Yes,No
+7aab68f4,0,86.40325729743373,0,Female,No,No,Fiber optic,Month-to-month,No,Electronic check,No,Yes,Yes
+2dcf2323,38,21.00804996385701,0,Male,Yes,No,No,Two year,Yes,Bank transfer (automatic),No,Yes,No
+7b133ead,70,86.29051605670026,0,Female,No,No,DSL,Two year,No,Bank transfer (automatic),No,No,No
+d8cec531,23,90.17044754169115,0,Male,No,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+4715ba57,11,50.71315450406017,0,Male,No,Yes,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+b44e3687,10,80.9617046469525,0,Female,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,Yes,No
+7952e296,66,20.93522427321927,0,Female,Yes,No,No,Two year,No,Mailed check,No,Yes,No
+94c58506,20,95.23272143561152,0,Female,No,No,Fiber optic,One year,Yes,Mailed check,No,No,No
+76b2dd55,35,63.258826541254344,0,Male,No,No,DSL,One year,Yes,Mailed check,Yes,Yes,No
+522fcbf8,37,82.45319765827794,0,Female,No,No,Fiber optic,One year,Yes,Mailed check,No,Yes,No
+86561bdc,44,49.50119273918565,0,Male,Yes,Yes,DSL,Two year,No,Credit card (automatic),No,No,Yes
+52f5899b,7,65.28796187315855,0,Male,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+7c37fa36,68,24.91612078215649,0,Male,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),No,No,Yes
+2cbe5913,9,51.76681244901316,0,Male,Yes,Yes,DSL,One year,No,Credit card (automatic),Yes,Yes,Yes
+6634f9b5,66,85.6547115395756,0,Male,Yes,Yes,Fiber optic,One year,No,Credit card (automatic),No,No,Yes
+63a4ee97,20,80.14076040776692,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,No
+237cc01b,13,94.52247725575586,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+86a5a327,6,21.52387691552219,0,Female,Yes,Yes,No,Two year,No,Mailed check,No,Yes,No
+e0e0da2d,60,92.11860132155529,0,Female,No,No,Fiber optic,One year,No,Electronic check,No,Yes,No
+a6ad1609,26,72.14826860705449,0,Female,Yes,Yes,Fiber optic,One year,Yes,Bank transfer (automatic),No,Yes,Yes
+9ae569b1,17,94.20396496480738,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+acab5857,62,20.49121940649772,0,Male,No,No,No,Two year,No,Mailed check,No,Yes,Yes
+90374bc6,40,83.72108577882481,0,Male,No,No,Fiber optic,Month-to-month,No,Electronic check,No,Yes,No
+ebf4246b,32,22.75851873456112,0,Female,Yes,No,No,Month-to-month,No,Electronic check,No,No,Yes
+e55ff143,29,81.52676187134693,0,Male,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,No
+9c647e34,16,61.07373674056126,0,Female,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+fda075cc,70,98.77589039562194,0,Female,Yes,Yes,Fiber optic,One year,Yes,Electronic check,No,No,Yes
+8bbef377,47,19.531448677591296,0,Male,No,No,No,Two year,Yes,Credit card (automatic),No,No,Yes
+b1542e90,71,96.1658507495122,0,Female,No,No,DSL,Two year,Yes,Electronic check,No,No,No
+ad0055d8,55,81.46047483608116,0,Male,Yes,No,DSL,One year,Yes,Mailed check,No,No,Yes
+457dc250,55,84.38570582376481,0,Female,No,Yes,DSL,One year,Yes,Electronic check,No,Yes,Yes
+f410690b,51,92.97962618123388,0,Female,Yes,Yes,Fiber optic,One year,No,Bank transfer (automatic),No,Yes,Yes
+06882ea9,65,98.14064430662513,1,Female,Yes,No,Fiber optic,One year,No,Credit card (automatic),No,Yes,No
+fb391e4d,7,49.903112339666365,0,Male,No,No,DSL,Month-to-month,No,Credit card (automatic),Yes,Yes,No
+2b9916c2,0,98.31121919417483,0,Female,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,Yes,No
+81500e15,13,75.96308507977828,0,Male,No,No,Fiber optic,Month-to-month,No,Electronic check,No,No,Yes
+2f198e82,58,84.86134056097794,0,Male,Yes,Yes,DSL,Two year,Yes,Electronic check,No,No,Yes
+94a95af9,65,124.40253519581323,0,Male,Yes,Yes,Fiber optic,Two year,Yes,Bank transfer (automatic),No,No,Yes
+1bb98cb2,42,25.338367176058153,0,Male,No,No,No,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+a8db9a13,4,19.54705964850634,0,Male,Yes,Yes,No,Month-to-month,No,Credit card (automatic),No,No,Yes
+52ffcc19,62,53.06906719605834,0,Female,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,No,Yes
+aa6888af,26,19.35007705040537,1,Male,No,No,No,One year,No,Credit card (automatic),No,Yes,No
+d83033b0,24,69.36802054274793,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+e4ecb4b5,4,88.44875741152863,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+23bdd05d,16,55.035884656488534,0,Female,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+431063ad,73,23.046086841108288,1,Female,Yes,No,No,Two year,No,Bank transfer (automatic),No,No,No
+c59a8d45,29,116.40772477860969,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+444a6449,12,21.241794790285784,0,Male,No,No,No,Two year,No,Mailed check,No,Yes,No
+56c68338,74,117.96835588588306,0,Male,Yes,No,Fiber optic,Two year,No,Credit card (automatic),No,Yes,No
+fc9e60f5,3,58.671378307192164,0,Male,No,No,DSL,Month-to-month,No,Mailed check,No,Yes,Yes
+a47afe4e,69,84.76578942430638,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+fcd7eb41,9,22.214058885597062,0,Female,No,No,No,Month-to-month,Yes,Credit card (automatic),No,No,No
+aff1303e,42,107.5242496157723,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+03d31894,14,92.25013349657233,0,Female,No,Yes,DSL,Two year,No,Credit card (automatic),No,No,No
+273786e5,1,103.28050253072045,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+b7f0e98d,60,82.15308060864353,1,Male,No,No,DSL,Two year,Yes,Bank transfer (automatic),No,No,Yes
+1f901ece,40,21.222979514262704,0,Male,Yes,Yes,No,One year,No,Mailed check,No,Yes,No
+c0734dbd,17,96.53318762036724,0,Male,Yes,Yes,Fiber optic,One year,Yes,Electronic check,Yes,No,Yes
+3d85f523,67,88.99205164613291,1,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,Yes,No
+241abb3c,8,92.77078596536832,0,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,No,No
+44e21677,42,100.63964984586725,0,Male,No,No,Fiber optic,One year,Yes,Electronic check,No,Yes,Yes
+bf5c7819,4,49.93354487378525,0,Male,No,No,DSL,Month-to-month,No,Mailed check,Yes,No,No
+6358408d,15,79.22079512217186,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,Yes,Yes
+166e021e,17,21.156917936301326,0,Female,No,No,No,One year,No,Bank transfer (automatic),No,Yes,No
+142c1a92,70,67.28411441511204,0,Male,No,No,DSL,Two year,Yes,Bank transfer (automatic),No,Yes,Yes
+be5cdf83,27,40.140448698328896,0,Female,No,No,DSL,One year,Yes,Credit card (automatic),No,Yes,No
+8840658a,36,100.44039740080848,0,Male,No,No,Fiber optic,One year,Yes,Bank transfer (automatic),Yes,Yes,No
+4565b25a,69,83.98165646868426,0,Female,Yes,No,DSL,Two year,Yes,Bank transfer (automatic),No,Yes,Yes
+40a6e076,23,58.798687284286366,0,Female,Yes,Yes,DSL,One year,No,Electronic check,No,No,No
+6d31307d,25,63.8810582936654,0,Female,Yes,Yes,DSL,One year,Yes,Mailed check,No,Yes,No
+420aa62e,0,46.44506255306901,0,Female,No,No,DSL,Month-to-month,No,Mailed check,No,No,No
+e882237a,4,75.07885440235606,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Mailed check,Yes,Yes,No
+e121c24d,4,71.43754637799975,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+795c79a3,48,106.14456591105885,0,Female,Yes,No,Fiber optic,Month-to-month,No,Electronic check,No,No,No
+90d61d38,46,101.29064189010892,0,Male,Yes,No,Fiber optic,One year,Yes,Credit card (automatic),No,No,Yes
+35abec5a,70,84.33648593721968,0,Male,Yes,Yes,DSL,Two year,Yes,Credit card (automatic),No,No,No
+103633fd,17,78.82071437016288,0,Male,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,Yes,No
+79776373,59,47.59243466832723,0,Male,Yes,No,DSL,Month-to-month,Yes,Electronic check,No,Yes,Yes
+057b4923,33,106.28979353348043,0,Male,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,No,Yes
+95a734e6,0,45.288957171136,0,Male,No,No,DSL,Month-to-month,Yes,Mailed check,Yes,No,Yes
+8af9cfe2,20,25.285891006406384,0,Male,No,No,DSL,Month-to-month,No,Credit card (automatic),No,Yes,No
+14d1fd83,24,34.19569658733711,0,Female,No,Yes,DSL,Two year,No,Bank transfer (automatic),No,No,No
+e39dfd1e,69,88.07204692133972,0,Male,Yes,Yes,DSL,Two year,Yes,Electronic check,No,No,No
+8eaf24a8,71,102.82863866445629,1,Female,Yes,Yes,Fiber optic,One year,Yes,Electronic check,No,Yes,Yes
+978d25a9,51,58.916644409449454,0,Male,Yes,Yes,DSL,One year,No,Electronic check,Yes,Yes,Yes
+3a0a199d,30,79.06314682815105,0,Male,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,No,No
+e5dce673,64,80.3211791376495,0,Male,Yes,No,Fiber optic,Two year,Yes,Credit card (automatic),No,No,No
+b44b80d0,0,19.85479326884502,0,Male,No,No,No,Month-to-month,No,Mailed check,No,Yes,No
+04261c22,70,23.358723170813732,0,Male,Yes,Yes,No,Two year,Yes,Credit card (automatic),No,No,Yes
+38ed521a,4,83.42393862565044,0,Female,No,No,DSL,Month-to-month,No,Electronic check,Yes,No,No
+0320dc68,0,69.34852309563453,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+239a1d43,1,75.81591450632844,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+e5562a6e,17,21.481861196955634,0,Female,No,No,No,Month-to-month,Yes,Mailed check,No,No,No
+c8072f10,21,100.61237516954046,0,Male,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,No,No
+2bd9e438,43,103.68813638307098,0,Female,Yes,Yes,Fiber optic,One year,Yes,Bank transfer (automatic),No,Yes,Yes
+f7d4729a,0,65.11670118154937,0,Female,No,No,Fiber optic,Month-to-month,No,Mailed check,Yes,No,No
+4092967b,1,47.591408923652565,0,Male,No,No,DSL,Month-to-month,Yes,Mailed check,Yes,Yes,No
+1d420fa4,1,81.79038308283558,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+1a28d09c,50,27.684776784547985,0,Female,Yes,Yes,DSL,Month-to-month,Yes,Credit card (automatic),No,No,Yes
+cc9b0e49,21,89.39000901445361,1,Female,Yes,No,Fiber optic,One year,Yes,Bank transfer (automatic),No,No,No
+8ce02a28,24,75.27336320156613,1,Female,No,No,DSL,Month-to-month,Yes,Mailed check,No,Yes,Yes
+a21133d7,16,22.79414637185903,0,Female,Yes,No,No,Two year,No,Mailed check,No,No,No
+fd9650fb,40,60.56015013743174,0,Female,No,No,DSL,One year,Yes,Bank transfer (automatic),No,No,No
+21860ee9,71,104.98415174757426,1,Male,Yes,No,Fiber optic,Two year,No,Bank transfer (automatic),No,No,No
+2377cfb2,12,117.31536433508512,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+b40d025d,64,69.07810877801052,0,Male,Yes,Yes,DSL,One year,No,Credit card (automatic),No,Yes,Yes
+945deb03,71,20.169220395583608,0,Female,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,No,Yes
+1e4baaac,58,95.44709238159153,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,No
+1181ef1e,29,21.20448504228125,0,Male,Yes,No,No,One year,No,Credit card (automatic),No,No,No
+7737ce4b,4,87.51768046041042,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+f4f54bfb,42,69.06321794696177,0,Male,Yes,No,DSL,One year,No,Credit card (automatic),No,Yes,Yes
+18cb7b81,3,73.6505679407196,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+5d207c9d,15,19.767986097678907,0,Male,No,No,No,Month-to-month,No,Mailed check,No,No,No
+2346d017,17,38.378815017010496,0,Male,Yes,Yes,DSL,Month-to-month,Yes,Mailed check,No,Yes,No
+9ed5ddf1,70,104.07644590567693,0,Male,Yes,Yes,Fiber optic,Two year,Yes,Bank transfer (automatic),Yes,Yes,Yes
+330191de,13,72.21797692081718,0,Male,No,No,Fiber optic,Month-to-month,No,Electronic check,No,No,Yes
+558217b4,46,54.703562312182584,0,Female,Yes,No,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+b88d998b,3,18.771807862069313,0,Male,Yes,Yes,No,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+311cc12b,58,106.24641422898198,0,Male,No,No,Fiber optic,One year,Yes,Electronic check,No,No,Yes
+3813a2d4,6,28.936627248983907,0,Male,No,No,DSL,Month-to-month,No,Mailed check,No,Yes,No
+1c735ccd,22,26.65993240894419,0,Male,No,No,No,One year,No,Bank transfer (automatic),Yes,No,Yes
+a59e9ff2,69,117.98104264366368,0,Female,Yes,Yes,Fiber optic,Two year,No,Credit card (automatic),No,Yes,Yes
+f2553800,22,81.67473063831119,0,Female,Yes,Yes,Fiber optic,Month-to-month,No,Mailed check,No,Yes,Yes
+5c564c7a,66,69.61482961650354,0,Male,Yes,Yes,DSL,Two year,No,Mailed check,No,Yes,No
+f33c19a1,18,78.87479056227016,1,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+e15449b3,59,19.257749690565625,0,Male,Yes,No,No,One year,Yes,Credit card (automatic),No,Yes,No
+93413ff1,10,18.93840728100518,0,Male,No,Yes,No,One year,Yes,Bank transfer (automatic),No,Yes,Yes
+b497fba1,3,113.50042958689818,0,Male,No,No,Fiber optic,Month-to-month,No,Electronic check,No,Yes,No
+106f6834,3,65.99600710359805,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Mailed check,No,No,No
+64c42bc9,70,109.27697868213423,0,Male,Yes,Yes,Fiber optic,Two year,Yes,Credit card (automatic),No,Yes,Yes
+82b0b0c0,15,20.666919825679468,0,Female,Yes,Yes,No,One year,No,Bank transfer (automatic),Yes,Yes,No
+462e1a79,63,96.16415770665228,0,Female,Yes,No,Fiber optic,One year,Yes,Bank transfer (automatic),No,Yes,No
+ad70850a,43,72.02652032472983,0,Male,Yes,Yes,DSL,One year,No,Electronic check,No,Yes,Yes
+8caedd83,58,17.622710515078555,0,Female,Yes,Yes,No,One year,No,Credit card (automatic),No,No,No
+4f2d2756,19,103.79428799538422,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+d167580f,73,70.74397664975623,0,Male,Yes,Yes,DSL,Two year,No,Credit card (automatic),No,No,Yes
+290b71cd,1,46.544719410848074,0,Male,No,No,DSL,Month-to-month,No,Mailed check,Yes,Yes,No
+39f88c2d,70,25.136092884614932,0,Male,Yes,Yes,No,Two year,No,Credit card (automatic),No,Yes,No
+88550a86,0,71.39842088922293,0,Female,No,No,Fiber optic,Month-to-month,No,Electronic check,Yes,Yes,Yes
+c873eb92,58,104.77893801730687,0,Female,Yes,Yes,Fiber optic,One year,Yes,Electronic check,No,No,No
+0729cce7,66,97.1438608840439,0,Male,Yes,Yes,Fiber optic,One year,Yes,Electronic check,No,No,No
+aac4d456,64,82.33682852527419,0,Female,Yes,No,Fiber optic,One year,Yes,Bank transfer (automatic),No,No,No
+1cc1b2ca,45,81.51268178964969,0,Female,Yes,No,DSL,Two year,No,Credit card (automatic),No,No,Yes
+3b8955d0,35,101.05022998018767,0,Female,No,No,Fiber optic,Month-to-month,Yes,Mailed check,Yes,Yes,Yes
+82acc9df,48,26.361857648971462,0,Female,No,No,No,One year,No,Credit card (automatic),No,No,No
+b639bedd,17,66.82410764188873,0,Male,No,No,DSL,Month-to-month,No,Credit card (automatic),No,Yes,No
+ff8163e9,3,25.651860304224073,0,Female,Yes,No,DSL,Month-to-month,Yes,Electronic check,No,Yes,No
+d05d631c,26,64.93310932350467,0,Female,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+b34c3f96,2,102.90769713489853,0,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,Yes,No
+236ea8a3,15,55.81368450555147,0,Male,No,No,DSL,Month-to-month,No,Mailed check,Yes,Yes,No
+ec2e9248,14,76.95863154789917,1,Male,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,Yes
+2918675e,1,71.38226775162234,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+5de1d5b3,23,20.971051991870567,0,Female,Yes,Yes,No,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+517bc19a,13,83.03863081378171,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),Yes,Yes,No
+d0dce34c,4,36.86231544299051,0,Female,No,No,DSL,Month-to-month,No,Mailed check,Yes,Yes,Yes
+725f8e07,36,49.16805277319398,0,Female,No,No,DSL,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+78922eff,0,82.74955782236118,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+bb02b55f,47,45.852365774086095,0,Female,No,No,DSL,Two year,No,Mailed check,No,Yes,Yes
+ba1e4584,7,26.74165686623088,0,Male,No,Yes,No,Month-to-month,No,Credit card (automatic),No,No,Yes
+bdf45236,7,57.17522659570519,0,Male,No,No,DSL,Month-to-month,No,Electronic check,No,Yes,Yes
+59eef092,31,68.39691474453994,0,Male,Yes,Yes,DSL,Two year,No,Mailed check,No,No,No
+f1c34862,69,104.98368127687846,0,Female,Yes,No,Fiber optic,Two year,No,Credit card (automatic),No,Yes,No
+ebe49df4,52,88.0001288302627,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+718cceef,34,65.49727399889036,1,Female,Yes,No,DSL,One year,No,Bank transfer (automatic),No,No,Yes
+99e43bca,69,42.15888867563902,0,Male,Yes,Yes,DSL,Two year,No,Mailed check,No,No,Yes
+86ae5396,3,75.65218157970764,0,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Mailed check,Yes,No,No
+709af789,49,52.93784091808948,0,Female,No,No,DSL,One year,Yes,Credit card (automatic),No,No,No
+79c91bf6,13,26.98204039504702,0,Female,Yes,Yes,No,Two year,No,Mailed check,No,No,No
+69b5447e,1,18.860560574029776,0,Female,No,No,No,Month-to-month,No,Mailed check,Yes,Yes,Yes
+aac8635c,10,22.397536248092692,0,Female,No,No,No,Month-to-month,Yes,Mailed check,No,Yes,Yes
+6ec45005,63,117.99749833828673,0,Female,Yes,Yes,Fiber optic,Two year,No,Bank transfer (automatic),No,No,Yes
+c2d2d745,3,58.816707373362334,0,Female,No,No,DSL,Month-to-month,No,Credit card (automatic),Yes,No,Yes
+0ad18b39,20,57.39657162583909,0,Female,Yes,No,DSL,Month-to-month,Yes,Mailed check,No,Yes,No
+5f120f83,55,102.60072164102306,0,Male,No,No,Fiber optic,Month-to-month,No,Electronic check,No,No,Yes
+b16c35b7,0,29.409840730328387,0,Male,No,No,DSL,Month-to-month,No,Mailed check,Yes,Yes,Yes
+916c6712,0,64.26456240262837,0,Female,No,No,Fiber optic,Month-to-month,No,Electronic check,Yes,No,Yes
+8b524fcf,63,117.47735504271175,0,Female,Yes,Yes,Fiber optic,Two year,No,Bank transfer (automatic),No,Yes,No
+e759a9f6,65,90.73880674152898,0,Female,Yes,No,DSL,Two year,No,Bank transfer (automatic),No,Yes,Yes
+b4884e84,69,29.792011803415672,0,Male,No,No,DSL,One year,No,Credit card (automatic),No,Yes,Yes
+791882b6,17,102.2624607980089,0,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+12f60025,54,60.55929992670899,0,Female,No,No,DSL,One year,Yes,Credit card (automatic),No,Yes,Yes
+23735a3d,6,74.72880130732787,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+71ec03cc,33,112.71076877062448,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,Yes
+a620c584,56,114.67109635536859,0,Male,Yes,Yes,Fiber optic,Two year,No,Mailed check,No,Yes,Yes
+c4438342,69,70.4744790106768,1,Male,Yes,No,DSL,Two year,Yes,Credit card (automatic),No,Yes,No
+99b7bdc3,61,18.65037163508849,0,Female,Yes,Yes,No,Two year,No,Credit card (automatic),No,Yes,Yes
+608103dd,30,31.718871516264425,0,Female,No,No,DSL,One year,No,Mailed check,No,No,Yes
+9391fc92,65,19.432025766273068,0,Female,Yes,No,No,Two year,No,Bank transfer (automatic),No,Yes,Yes
+ac4a04dc,17,52.65479747469514,0,Female,No,No,DSL,One year,Yes,Mailed check,No,Yes,Yes
+9484a0ae,46,27.769012080109444,0,Male,No,No,DSL,One year,Yes,Bank transfer (automatic),No,No,Yes
+d12a0211,19,18.240320921733048,0,Male,No,No,No,Month-to-month,No,Mailed check,No,Yes,Yes
+8e20f982,68,18.964244821544696,0,Male,Yes,Yes,No,Two year,No,Credit card (automatic),No,Yes,No
+788683de,58,73.7569691214673,0,Male,Yes,Yes,DSL,Two year,Yes,Credit card (automatic),No,Yes,Yes
+fccab3a2,44,86.51722935855534,0,Male,Yes,Yes,Fiber optic,Month-to-month,No,Electronic check,No,Yes,Yes
+8609df31,11,21.16485407566635,0,Female,No,No,No,Month-to-month,No,Mailed check,No,No,No
+d014ff34,16,103.60589621727813,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+faf2fa7b,6,22.52924234927838,0,Male,No,No,No,Month-to-month,No,Bank transfer (automatic),No,No,Yes
+db3e08b0,6,74.22930711695027,0,Female,Yes,Yes,Fiber optic,Month-to-month,No,Credit card (automatic),No,Yes,Yes
+fc22718c,3,48.130831020857094,0,Female,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),Yes,Yes,No
+9d8ce92b,10,90.01997084667109,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+5ce8458b,72,23.511545314209272,0,Male,Yes,No,No,Two year,Yes,Electronic check,No,No,Yes
+4dce9ff1,45,81.86901306975152,1,Female,No,No,DSL,One year,No,Bank transfer (automatic),No,No,No
+10ab4bc9,11,18.375957440231282,0,Female,No,No,No,One year,Yes,Mailed check,No,Yes,Yes
+6aed32c0,62,79.1936321631597,0,Male,Yes,Yes,DSL,Two year,No,Electronic check,No,No,Yes
+bb592efe,6,74.09447797305555,1,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+f73829fc,6,67.20881197320352,0,Female,No,No,Fiber optic,Month-to-month,No,Electronic check,Yes,Yes,Yes
+075627b2,0,22.312692003499627,0,Female,Yes,Yes,No,Month-to-month,Yes,Mailed check,Yes,No,Yes
+ce2ee932,25,69.19094304859537,0,Female,No,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,Yes,No
+433f9bbb,2,48.14927542581366,0,Female,No,No,DSL,Month-to-month,No,Electronic check,No,Yes,No
+bf35863d,7,77.62177745361967,0,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,Yes
+28be3134,0,51.48238762579871,0,Male,No,No,DSL,Month-to-month,No,Electronic check,No,Yes,Yes
+0a10daa8,4,45.91134766943709,1,Female,Yes,No,DSL,Month-to-month,Yes,Electronic check,Yes,No,Yes
+4a6d8125,10,21.667885746052768,0,Female,No,No,No,One year,No,Mailed check,No,Yes,No
+1f835cdf,61,54.75116020185542,0,Female,Yes,No,DSL,Two year,No,Bank transfer (automatic),No,Yes,Yes
+d5e683e3,41,53.98869074540593,0,Female,Yes,No,DSL,Month-to-month,Yes,Electronic check,Yes,No,Yes
+3ab18f5e,61,23.46278950615672,0,Female,No,No,No,Two year,No,Mailed check,No,Yes,No
+22bd815f,71,56.705171362954886,0,Male,Yes,No,DSL,One year,Yes,Credit card (automatic),No,Yes,No
+9a2b401a,57,74.05144217028536,0,Male,Yes,Yes,DSL,Two year,Yes,Credit card (automatic),No,Yes,No
+5a79deb6,19,92.05233055256066,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Credit card (automatic),Yes,No,No
+c4d070ac,15,49.03751223634069,0,Male,No,Yes,DSL,Month-to-month,Yes,Credit card (automatic),No,Yes,No
+c71977f8,2,73.49047198820509,0,Male,No,Yes,Fiber optic,Month-to-month,No,Bank transfer (automatic),Yes,Yes,Yes
+aa6254f1,26,50.86093392241528,0,Female,No,No,DSL,One year,Yes,Electronic check,No,No,No
+8f9e4cda,71,94.7978338229038,0,Female,Yes,Yes,Fiber optic,Two year,Yes,Bank transfer (automatic),No,Yes,No
+11376a73,73,25.286490445035962,0,Male,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,Yes,Yes
+96a2354a,29,80.9115304973973,0,Female,Yes,No,Fiber optic,Month-to-month,No,Credit card (automatic),No,Yes,Yes
+889855c6,25,54.80788901939395,0,Female,No,No,DSL,One year,Yes,Electronic check,No,Yes,No
+1f400c50,1,50.76529503225059,0,Male,No,No,DSL,Month-to-month,No,Mailed check,No,No,Yes
+537f0b0a,31,93.22598779149219,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+bd7adf08,32,17.97575930261491,0,Female,No,No,No,Two year,No,Mailed check,No,No,No
+028e5f4f,25,57.30825988555402,0,Male,No,Yes,DSL,Month-to-month,No,Electronic check,No,Yes,No
+02797eb3,65,21.11370175901937,0,Female,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),No,Yes,Yes
+eb119d23,14,50.02432865997752,0,Male,No,No,DSL,Month-to-month,Yes,Credit card (automatic),Yes,Yes,No
+d27dd7cf,54,19.91230450731416,0,Male,Yes,Yes,No,One year,No,Mailed check,No,No,No
+a7fac040,7,93.152105208212,0,Male,No,No,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,Yes,Yes
+a7ca1845,73,58.701687235973175,0,Female,Yes,Yes,DSL,Two year,No,Credit card (automatic),No,Yes,Yes
+11bbbef4,6,84.68047578784801,0,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,Yes,No
+bc692d0a,14,44.18654342114934,0,Male,Yes,No,DSL,Month-to-month,No,Electronic check,Yes,Yes,Yes
+a00e83b0,52,99.12071535518767,0,Female,Yes,Yes,Fiber optic,Two year,Yes,Bank transfer (automatic),No,Yes,No
+2b3974ba,65,75.19383373767828,0,Female,Yes,No,Fiber optic,One year,Yes,Credit card (automatic),No,Yes,Yes
+8a15b44e,24,96.80340663365824,1,Female,Yes,No,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,No,No
+46292059,31,20.295533633975996,0,Female,Yes,Yes,No,Two year,No,Mailed check,No,Yes,Yes
+10f00087,42,92.59368011832588,0,Male,Yes,No,Fiber optic,One year,Yes,Bank transfer (automatic),No,Yes,No
+9ff2c400,39,94.83256035657261,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Bank transfer (automatic),No,Yes,Yes
+dddd9adf,3,76.19543848821533,0,Female,No,No,Fiber optic,Month-to-month,No,Bank transfer (automatic),Yes,Yes,No
+42319453,32,96.56869749550945,0,Female,No,No,Fiber optic,Month-to-month,No,Electronic check,No,No,Yes
+8b979ac6,0,48.585461503993315,0,Male,Yes,Yes,DSL,Month-to-month,Yes,Electronic check,No,Yes,No
+3ad2c24a,67,101.51624271271804,0,Male,No,No,Fiber optic,One year,Yes,Bank transfer (automatic),No,Yes,No
+632e9915,72,19.85844292642788,0,Female,Yes,No,No,Two year,No,Credit card (automatic),No,No,Yes
+8da91aed,0,45.9502347691058,0,Male,No,No,DSL,Month-to-month,Yes,Bank transfer (automatic),No,No,Yes
+70efbd5a,75,88.67526008224525,0,Male,Yes,No,DSL,Two year,Yes,Credit card (automatic),No,No,No
+1e02b299,24,20.458333317469066,0,Female,No,Yes,No,Month-to-month,No,Credit card (automatic),No,No,No
+14f36260,69,19.545930674180294,0,Male,Yes,Yes,No,Two year,No,Bank transfer (automatic),No,Yes,No
+d50d4fee,17,18.1220776219109,0,Male,No,No,No,Two year,Yes,Mailed check,No,No,No
+3c1b3f7c,44,105.33445734800088,0,Female,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+5deedec9,66,85.21336519536237,0,Female,Yes,Yes,DSL,Two year,Yes,Bank transfer (automatic),No,Yes,Yes
+6952017e,37,24.408952069344043,0,Male,No,Yes,No,One year,No,Bank transfer (automatic),No,No,No
+67adb279,3,18.4751521291982,0,Female,Yes,Yes,No,Month-to-month,No,Mailed check,No,No,No
+313f9341,2,42.23933906171645,1,Male,No,No,DSL,Month-to-month,No,Bank transfer (automatic),No,No,No
+2818152c,61,24.219241494226832,0,Male,No,No,No,Two year,Yes,Credit card (automatic),No,No,No
+78d7153e,5,21.436568441134238,0,Male,Yes,Yes,No,Month-to-month,No,Mailed check,No,No,No
+c1f134c0,8,18.696344505231682,0,Male,No,No,No,Month-to-month,No,Mailed check,No,No,Yes
+68300ae1,53,63.79237298057942,0,Female,No,No,DSL,Two year,Yes,Bank transfer (automatic),No,No,No
+3a2faf3a,38,102.88885656261643,0,Male,No,No,Fiber optic,Two year,Yes,Credit card (automatic),No,No,No
+d26e6d91,16,27.02798160132922,0,Male,No,No,No,Month-to-month,Yes,Electronic check,No,Yes,No
+6efdd69d,67,103.28120083783446,0,Male,Yes,No,Fiber optic,Two year,Yes,Credit card (automatic),No,No,No
+62512735,29,62.54752970088851,0,Male,Yes,Yes,DSL,Month-to-month,Yes,Mailed check,No,No,Yes
+f3f88b33,22,20.407896126925607,0,Female,No,No,No,Two year,No,Credit card (automatic),No,Yes,No
+8c10559f,4,20.41003432955799,0,Male,No,No,No,Month-to-month,Yes,Mailed check,No,No,No
+a53b1530,26,86.90711680823418,1,Male,Yes,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,No,Yes
+5d9231b2,75,119.28117695303791,0,Female,No,No,Fiber optic,Two year,Yes,Electronic check,No,Yes,No
+b4f7f5d6,71,104.57731628413391,0,Male,Yes,Yes,Fiber optic,Two year,No,Credit card (automatic),No,Yes,Yes
+36108482,22,21.323323199687373,0,Male,Yes,Yes,No,One year,No,Mailed check,No,Yes,No
+1f518c2e,39,87.0978152349803,0,Male,No,No,DSL,One year,Yes,Bank transfer (automatic),No,No,Yes
+ed348f7a,28,19.34017970810277,1,Male,No,No,No,One year,No,Credit card (automatic),No,Yes,Yes
+6e19099b,8,24.32975233161925,0,Male,Yes,Yes,No,Month-to-month,Yes,Mailed check,No,Yes,Yes
+7e9e9137,44,19.252148188812328,0,Male,Yes,Yes,No,One year,No,Bank transfer (automatic),No,No,No
+69898d15,35,105.11970906058345,0,Female,Yes,Yes,Fiber optic,Month-to-month,Yes,Credit card (automatic),No,No,No
+1502e708,7,17.666602959832712,0,Male,No,No,No,Month-to-month,Yes,Mailed check,No,No,No
+4f82b1b4,47,25.55602380254288,0,Female,Yes,Yes,No,One year,No,Mailed check,No,No,Yes
+2eecb9ff,64,18.39524441036204,0,Male,Yes,Yes,No,Two year,Yes,Mailed check,No,No,No
+75165199,61,18.751431391310927,0,Male,Yes,No,No,Two year,No,Mailed check,No,No,No
+3d120481,60,81.6114342806642,1,Male,Yes,No,Fiber optic,Month-to-month,Yes,Electronic check,No,No,No
+d01d285c,67,19.764434311723534,0,Female,Yes,No,No,One year,Yes,Bank transfer (automatic),No,Yes,No
+157c1a9d,5,23.829668582289166,0,Female,Yes,Yes,DSL,Month-to-month,No,Mailed check,No,Yes,Yes
+001727a8,6,54.65676246423673,0,Female,No,No,DSL,Month-to-month,No,Credit card (automatic),Yes,Yes,No
+d4ab64c4,14,95.61824922898707,0,Female,No,Yes,Fiber optic,Month-to-month,Yes,Electronic check,No,Yes,Yes
+b0b79147,0,26.840007414783567,0,Female,No,No,DSL,Month-to-month,No,Electronic check,Yes,Yes,No
+a4a95166,41,20.944086909928973,0,Female,No,No,No,One year,No,Mailed check,No,No,Yes
+fb1dddab,5,47.12328236931078,0,Male,Yes,Yes,DSL,Month-to-month,Yes,Bank transfer (automatic),Yes,Yes,No
+3f1b841e,42,107.0231470408631,1,Female,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+4b2e57dd,25,24.754889720316203,0,Female,No,No,No,Two year,No,Credit card (automatic),No,Yes,Yes
+75d7a31d,74,126.68664536901204,0,Male,Yes,No,Fiber optic,Two year,Yes,Bank transfer (automatic),No,Yes,Yes
+71c13d93,0,73.81903968678891,0,Male,No,No,Fiber optic,Month-to-month,Yes,Electronic check,Yes,No,No
+23a1e681,68,100.38256522176084,1,Female,Yes,No,Fiber optic,One year,Yes,Credit card (automatic),No,Yes,No
+8d1c9d49,53,21.705237113737887,0,Male,Yes,Yes,No,One year,Yes,Credit card (automatic),No,No,No
