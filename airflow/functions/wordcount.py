@@ -45,7 +45,7 @@ def main():
 
 
     # Collect results and save to the output file
-    word_counts.saveAsTextFile(output_path)
+    # word_counts.saveAsTextFile(output_path)
 
     print("=============================================================")
     print("Word counts saved")
