@@ -14,7 +14,6 @@ def retrain_model_if_drift(training_data_path, current_data_path):
         psi_threshold (float): PSI threshold for drift detection.
     """
     psi_threshold=0.1
-    bins=10
     # Load the training and current datasets
     training_data = pd.read_csv(training_data_path)
     current_data = pd.read_csv(current_data_path)
@@ -23,7 +22,7 @@ def retrain_model_if_drift(training_data_path, current_data_path):
     for column in training_data.select_dtypes(include=np.number).columns:
         expected = training_data[column]
         current = current_data[column]
-        psi = calculate_psi(expected, current, bins=bins)
+        psi = calculate_psi(expected, current)
         total_psi += psi
         print(f"PSI for {column}: {psi:.4f}")
 
