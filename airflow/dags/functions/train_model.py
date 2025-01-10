@@ -36,47 +36,83 @@ def train_model(df_dict_str):
     mlflow.set_tracking_uri("http://mlflow:5000")
 
     # Train and log Random Forest model
-    with mlflow.start_run(run_name="rf_model_training"):
+    with mlflow.start_run(run_name="rf_model_training") as run:
+        # Train the model
         rf_model.fit(X_train, y_train)
         y_pred_rf = rf_model.predict(X_test)
 
+        # Evaluate the model
         rf_acc = accuracy_score(y_test, y_pred_rf)
         rf_f1 = f1_score(y_test, y_pred_rf)
 
+        # Log parameters and metrics
         mlflow.log_param("model_type", "RandomForest")
         mlflow.log_param("n_estimators", 100)
         mlflow.log_metric("accuracy", rf_acc)
         mlflow.log_metric("f1_score", rf_f1)
 
+        # Get the run ID
+        mlflow_run_id = run.info.run_id
+        print(f"Run ID: {mlflow_run_id}")
+
+        # Log and register the model
         try:
+            # Log the model
             mlflow.sklearn.log_model(
                 sk_model=rf_model,
                 artifact_path="random_forest_model",
-                registered_model_name=rf_model_name
+                registered_model_name=None  # Not registering here yet
             )
-            print(f"Random Forest model logged and registered as {rf_model_name}")
+            print("Random Forest model logged.")
+
+            # Construct the model URI
+            model_uri = f"runs:/{mlflow_run_id}/random_forest_model"
+            print(f"Model URI: {model_uri}")
+
+            # Load and register the model
+            model = mlflow.pyfunc.load_model(model_uri)
+            mlflow.register_model(model_uri, "customer_churn_prediction_model")
+            print("Model registered as 'customer_churn_prediction_model'.")
         except mlflow.exceptions.MlflowException as e:
-            print(f"Error registering Random Forest model: {e}")
+            print(f"Error logging or registering the model: {e}")
 
     # Train and log Logistic Regression model
-    with mlflow.start_run(run_name="lr_model_training"):
+    with mlflow.start_run(run_name="lr_model_training") as run:
+        # Train the model
         lr_model.fit(X_train, y_train)
         y_pred_lr = lr_model.predict(X_test)
 
+        # Evaluate the model
         lr_acc = accuracy_score(y_test, y_pred_lr)
         lr_f1 = f1_score(y_test, y_pred_lr)
 
+        # Log parameters and metrics
         mlflow.log_param("model_type", "LogisticRegression")
         mlflow.log_param("max_iter", 1000)
         mlflow.log_metric("accuracy", lr_acc)
         mlflow.log_metric("f1_score", lr_f1)
 
+        # Get the run ID
+        mlflow_run_id = run.info.run_id
+        print(f"Run ID: {mlflow_run_id}")
+
+        # Log and register the model
         try:
+            # Log the model
             mlflow.sklearn.log_model(
                 sk_model=lr_model,
                 artifact_path="logistic_regression_model",
-                registered_model_name=lr_model_name
+                registered_model_name=None  # Not registering here yet
             )
-            print(f"Logistic Regression model logged and registered as {lr_model_name}")
+            print("Logistic Regression model logged.")
+
+            # Construct the model URI
+            model_uri = f"runs:/{mlflow_run_id}/logistic_regression_model"
+            print(f"Model URI: {model_uri}")
+
+            # Load and register the model
+            model = mlflow.pyfunc.load_model(model_uri)
+            mlflow.register_model(model_uri, "customer_churn_prediction_model")
+            print("Model registered as 'customer_churn_prediction_model'.")
         except mlflow.exceptions.MlflowException as e:
-            print(f"Error registering Logistic Regression model: {e}")
+            print(f"Error logging or registering the model: {e}")
