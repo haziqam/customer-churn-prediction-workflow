@@ -1,13 +1,9 @@
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn.model_selection import train_test_split
 import pandas as pd
 import mlflow
 import mlflow.sklearn
-import joblib
 
 def train_and_log_model(data_path, features, model_path="models/random_forest_model.pkl"):
     """
