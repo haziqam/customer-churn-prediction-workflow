@@ -32,39 +32,20 @@ def train_model(df_dict_str):
     X = df.drop(columns=["Churn"])
     y = df["Churn"]
 
-    # Encode the target variable
-    label_encoder = LabelEncoder()
-    y = label_encoder.fit_transform(y)  # Converts 'Yes'/'No' to 1/0
-
-    # Identify categorical and numerical columns
-    categorical_cols = X.select_dtypes(include=["object"]).columns
-
-    # Create a preprocessor for categorical columns
-    preprocessor = ColumnTransformer(
-        transformers=[
-            ("cat", OneHotEncoder(drop="first", sparse_output=False, handle_unknown="ignore"), categorical_cols)
-        ],
-        remainder="passthrough"  # Keep numerical columns as is
-    )
-
     # Split data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
-    # Define the pipeline
-    pipeline = Pipeline([
-        ("preprocessor", preprocessor),
-        ("classifier", RandomForestClassifier(n_estimators=100, random_state=42))
-    ])
+    model = RandomForestClassifier(n_estimators=100, random_state=42)
 
     mlflow.set_tracking_uri("http://127.0.0.1:5000")
     model_name = "customer_churn_model"
     # Start MLflow run
     with mlflow.start_run(run_name="model_training"):
         # Train model
-        pipeline.fit(X_train, y_train)
+        model.fit(X_train, y_train)
 
         # Evaluate model
-        y_pred = pipeline.predict(X_test)
+        y_pred = model.predict(X_test)
         acc = accuracy_score(y_test, y_pred)
         f1 = f1_score(y_test, y_pred)  
 
@@ -79,7 +60,7 @@ def train_model(df_dict_str):
         print(f"Registering model: {model_name}")
         try:
             mlflow.sklearn.log_model(
-                sk_model=pipeline,
+                sk_model=model,
                 artifact_path="random_forest_model",
                 registered_model_name=model_name
             )
