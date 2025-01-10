@@ -14,6 +14,10 @@ services:
       - spark-cluster
     depends_on:
       - spark-master
+    environment:
+      AWS_ACCESS_KEY: minioadmin
+      AWS_SECRET_ACCESS_KEY: minioadmin
+      MLFLOW_S3_ENDPOINT_URL: http://minio:9000
     command: bash -c "rm -f /opt/airflow/airflow-webserver.pid && airflow db init && (airflow scheduler & airflow webserver)"
 
   spark-master:
@@ -81,6 +85,9 @@ services:
       MLFLOW_TRACKING_URI: "http://0.0.0.0:5000"
       BACKEND_STORE_URI: "postgresql://mlflow:mlflow@mlflow-db:5432/mlflow"
       ARTIFACT_STORE_URI: "s3://mlflow-artifacts"
+      AWS_ACCESS_KEY: minioadmin
+      AWS_SECRET_ACCESS_KEY: minioadmin
+      MLFLOW_S3_ENDPOINT_URL: http://minio:9000
     build:
       context: .
       dockerfile: Dockerfile.mlflow

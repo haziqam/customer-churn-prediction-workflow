@@ -27,5 +27,7 @@ RUN pip install scikit-learn
 
 RUN pip install mlflow
 
+RUN pip install faker
+
 
 
