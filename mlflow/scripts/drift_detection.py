@@ -1,43 +1,42 @@
-from train_model import train_and_log_model
-from drift_detection import calculate_psi
-import pandas as pd
 import numpy as np
+import mlflow
 
-def retrain_model_if_drift(training_data_path, current_data_path, model_output_path, psi_threshold=0.1):
+def calculate_psi(expected, actual, bins=10):
     """
-    Retrains the model if data drift is detected.
-
+    Calculate the Population Stability Index (PSI) to detect drift.
+    
     Args:
-        training_data_path (str): Path to the training dataset.
-        current_data_path (str): Path to the current dataset.
-        model_output_path (str): Path to save the retrained model.
-        psi_threshold (float): PSI threshold for drift detection.
+        expected (np.array): Expected distribution (training data).
+        actual (np.array): Current distribution (new data).
+        bins (int): Number of bins for comparison.
+    
+    Returns:
+        float: The PSI value.
     """
-    # Load the training and current datasets
-    training_data = pd.read_csv(training_data_path)
-    current_data = pd.read_csv(current_data_path)
+    expected_hist, _ = np.histogram(expected, bins=bins)
+    actual_hist, _ = np.histogram(actual, bins=bins)
+    expected_perc = expected_hist / sum(expected_hist)
+    actual_perc = actual_hist / sum(actual_hist)
+    psi = np.sum((expected_perc - actual_perc) * np.log(expected_perc / actual_perc))
+    return psi
 
-    # Compare the distributions of numerical features
-    for column in training_data.select_dtypes(include=np.number).columns:
-        expected = training_data[column]
-        current = current_data[column]
+def log_psi(expected, actual):
+    """
+    Logs the PSI value to MLflow.
+    
+    Args:
+        expected (np.array): Expected distribution.
+        actual (np.array): Current distribution.
+    """
+    psi_value = calculate_psi(expected, actual)
+    with mlflow.start_run(run_name="drift_detection"):
+        mlflow.log_metric("psi", psi_value)
+        mlflow.log_param("psi_threshold", 0.1)
+        mlflow.log_param("drift_detected", psi_value > 0.1)
+        print(f"PSI value: {psi_value}")
 
-        # Calculate PSI
-        psi = calculate_psi(expected, current)
-
-        print(f"PSI for {column}: {psi:.4f}")
-        if psi > psi_threshold:
-            print(f"Drift detected in {column} (PSI = {psi:.4f}). Retraining model...")
-            train_and_log_model(current_data_path, model_output_path)
-            return
-
-    print("No drift detected. Retraining not required.")
-
-
+# Example usage
 if __name__ == "__main__":
-    retrain_model_if_drift(
-        training_data_path="data/processed_data.csv",
-        current_data_path="data/current_data.csv", # live data
-        model_output_path="models/retrained_model.pkl",
-        psi_threshold=0.1
-    )
+    expected = np.random.normal(0, 1, 1000)  # Training distribution
+    actual = np.random.normal(0.5, 1, 1000)  # Current distribution
+    log_psi(expected, actual)
