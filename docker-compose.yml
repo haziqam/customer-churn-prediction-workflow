@@ -10,6 +10,13 @@ services:
       - ./workspace:/opt/workspace
     ports:
       - "8080:8080"
+    environment:
+      MLFLOW_TRACKING_URI: "http://0.0.0.0:5000"
+      BACKEND_STORE_URI: "postgresql://mlflow:mlflow@mlflow-db:5432/mlflow"
+      ARTIFACT_STORE_URI: "s3://mlflow-artifacts"
+      AWS_ACCESS_KEY_ID: "minioadmin"
+      AWS_SECRET_ACCESS_KEY: "minioadmin"
+      MLFLOW_S3_ENDPOINT_URL: "http://minio:9000"
     networks:
       - spark-cluster
     depends_on:
@@ -81,6 +88,9 @@ services:
       MLFLOW_TRACKING_URI: "http://0.0.0.0:5000"
       BACKEND_STORE_URI: "postgresql://mlflow:mlflow@mlflow-db:5432/mlflow"
       ARTIFACT_STORE_URI: "s3://mlflow-artifacts"
+      AWS_ACCESS_KEY_ID: "minioadmin"
+      AWS_SECRET_ACCESS_KEY: "minioadmin"
+      MLFLOW_S3_ENDPOINT_URL: "http://minio:9000"
     build:
       context: .
       dockerfile: Dockerfile.mlflow
@@ -125,6 +135,8 @@ services:
       - "5555:5555"
     volumes:
       - ./model-deploy/app:/app/app
+    networks:
+      - spark-cluster
 
 volumes:
   shared-workspace:
