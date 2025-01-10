@@ -62,7 +62,7 @@ def detect_drift(training_data_path, bucket_name, current_data_path, psi_thresho
     if total_psi > psi_threshold:
         kwargs['ti'].xcom_push(key="drift", value= True)
     else:
-        kwargs['ti'].xcom_push(key="drift", value= True)
+        kwargs['ti'].xcom_push(key="drift", value= False)
 
 if __name__ == "__main__":
     original_data = sys.argv[1]
