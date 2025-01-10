@@ -1,9 +1,10 @@
 version: "3"
+
 services:
   sleek-airflow:
     build:
       context: .
-      dockerfile: Dockerfile.temp
+      dockerfile: Dockerfile.airflow
     volumes:
       - ./airflow:/opt/airflow
       - ./workspace:/opt/workspace
@@ -71,9 +72,57 @@ services:
     volumes:
       - minio-data:/data
 
+  mlflow:
+    image: mlflow/mlflow:latest
+    container_name: mlflow-server
+    ports:
+      - "5000:5000"
+    environment:
+      MLFLOW_TRACKING_URI: "http://0.0.0.0:5000"
+      BACKEND_STORE_URI: "postgresql://mlflow:mlflow@mlflow-db:5432/mlflow"
+      ARTIFACT_STORE_URI: "s3://mlflow-artifacts"
+    volumes:
+      - ./artifacts:/mlflow/artifacts
+    build:
+      context: .
+      dockerfile: Dockerfile.mlflow
+    depends_on:
+      - mlflow-db
+      - minio
+    networks:
+      - spark-cluster
+
+  mlflow-db:
+    image: postgres:13
+    container_name: mlflow-db
+    environment:
+      POSTGRES_USER: mlflow
+      POSTGRES_PASSWORD: mlflow
+      POSTGRES_DB: mlflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    networks:
+      - spark-cluster
+
+  minio-client:
+    image: minio/mc
+    depends_on:
+      - minio
+    entrypoint: >
+      /bin/sh -c "
+      until (/usr/bin/mc alias set mlflow http://minio:9000 minioadmin minioadmin) do echo 'waiting for minio'; sleep 5; done;
+      /usr/bin/mc mb -p mlflow/mlflow-artifacts;
+      /usr/bin/mc policy set public mlflow/mlflow-artifacts;
+      "
+    networks:
+      - spark-cluster
+
 volumes:
   shared-workspace:
   minio-data:
+  postgres_data:
 
 networks:
   spark-cluster:

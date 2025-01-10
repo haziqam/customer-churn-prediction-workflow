@@ -34,7 +34,7 @@ def train_model(df_dict_str):
 
     model = RandomForestClassifier(n_estimators=100, random_state=42)
 
-    mlflow.set_tracking_uri("http://127.0.0.1:5000")
+    mlflow.set_tracking_uri("http://mlflow:5000")
     model_name = "customer_churn_model"
     # Start MLflow run
     with mlflow.start_run(run_name="model_training"):

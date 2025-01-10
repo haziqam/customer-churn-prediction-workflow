@@ -1,0 +1,21 @@
+FROM python:3.9-slim
+
+ENV MLFLOW_HOME=/mlflow
+ENV PATH=$MLFLOW_HOME/bin:$PATH
+
+RUN apt-get update && apt-get install -y \
+    curl \
+    libpq-dev \
+    gcc \
+    && apt-get clean
+
+WORKDIR $MLFLOW_HOME
+
+COPY ./requirements/mlflow.txt /tmp/requirements.txt
+
+EXPOSE 5000
+
+CMD ["mlflow", "server", \
+     "--backend-store-uri", "postgresql://mlflow:mlflow@mlflow-db:5432/mlflow", \
+     "--default-artifact-root", "/mlflow/artifacts", \
+     "--host", "0.0.0.0"]
