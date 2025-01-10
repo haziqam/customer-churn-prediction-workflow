@@ -10,7 +10,7 @@ import mlflow.sklearn
 def train_model(df_dict_str):
     df_dict = ast.literal_eval(df_dict_str)
     df = pd.DataFrame(df_dict)
-
+    
     print("=============================================================")
     print(df.head())
     print("=============================================================")
@@ -19,13 +19,6 @@ def train_model(df_dict_str):
     print("Train model")
     print("=============================================================")
 
-      # Drop non-relevant columns (e.g., ID columns)
-    if 'customerID' in df.columns:
-        df.drop(columns=['customerID'], inplace=True)
-
-    # Select the specified features
-    # TODO: nanti kalo ada var features
-    # X = df[features] 
     X = df.drop(columns=["Churn"])
     y = df["Churn"]
 
@@ -36,6 +29,7 @@ def train_model(df_dict_str):
 
     mlflow.set_tracking_uri("http://mlflow:5000")
     model_name = "customer_churn_model"
+
     # Start MLflow run
     with mlflow.start_run(run_name="model_training"):
         # Train model
@@ -44,12 +38,11 @@ def train_model(df_dict_str):
         # Evaluate model
         y_pred = model.predict(X_test)
         acc = accuracy_score(y_test, y_pred)
-        f1 = f1_score(y_test, y_pred)  
+        f1 = f1_score(y_test, y_pred)
 
         # Log parameters and metrics
         mlflow.log_param("model_type", "RandomForest")
         mlflow.log_param("n_estimators", 100)
-        # mlflow.log_param("features", features) 
         mlflow.log_metric("accuracy", acc)
         mlflow.log_metric("f1_score", f1)
 

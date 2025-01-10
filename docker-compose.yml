@@ -81,8 +81,6 @@ services:
       MLFLOW_TRACKING_URI: "http://0.0.0.0:5000"
       BACKEND_STORE_URI: "postgresql://mlflow:mlflow@mlflow-db:5432/mlflow"
       ARTIFACT_STORE_URI: "s3://mlflow-artifacts"
-    volumes:
-      - ./artifacts:/mlflow/artifacts
     build:
       context: .
       dockerfile: Dockerfile.mlflow

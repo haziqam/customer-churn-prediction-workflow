@@ -13,9 +13,11 @@ WORKDIR $MLFLOW_HOME
 
 COPY ./requirements/mlflow.txt /tmp/requirements.txt
 
+RUN pip install -r /tmp/requirements.txt
+
 EXPOSE 5000
 
 CMD ["mlflow", "server", \
      "--backend-store-uri", "postgresql://mlflow:mlflow@mlflow-db:5432/mlflow", \
-     "--default-artifact-root", "/mlflow/artifacts", \
+     "--default-artifact-root", "s3://mlflow-artifacts", \
      "--host", "0.0.0.0"]

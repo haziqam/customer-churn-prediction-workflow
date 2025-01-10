@@ -11,6 +11,8 @@ ENV JAVA_HOME /usr/lib/jvm/java-17-openjdk-amd64/
 
 RUN export JAVA_HOME
 
+RUN mkdir -p /mlflow && chown -R airflow:root /mlflow && chmod 777 /mlflow
+
 USER airflow
 
 RUN pip install apache-airflow
