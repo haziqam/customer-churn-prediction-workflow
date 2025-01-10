@@ -117,6 +117,15 @@ services:
     networks:
       - spark-cluster
 
+  model-deploy:
+    build:
+      context: .
+      dockerfile: Dockerfile.fastapi
+    ports:
+      - "5555:5555"
+    volumes:
+      - ./model-deploy/app:/app/app
+
 volumes:
   shared-workspace:
   minio-data:
