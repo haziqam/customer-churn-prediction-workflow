@@ -3,27 +3,40 @@ from drift_detection import calculate_psi
 import pandas as pd
 import numpy as np
 
-def retrain_model_if_drift(data_path, psi_threshold=0.1):
+def retrain_model_if_drift(training_data_path, current_data_path, model_output_path, psi_threshold=0.1, bins=10):
     """
     Retrains the model if data drift is detected.
-    
+
     Args:
-        data_path (str): Path to the current dataset.
+        training_data_path (str): Path to the training dataset.
+        current_data_path (str): Path to the current dataset.
+        model_output_path (str): Path to save the retrained model.
         psi_threshold (float): PSI threshold for drift detection.
     """
-    # Simulate expected and current distributions
-    expected = np.random.normal(0, 1, 1000)  # Example: Training distribution
-    current = np.random.normal(0.5, 1, 1000)  # Example: Current data distribution
+    # Load the training and current datasets
+    training_data = pd.read_csv(training_data_path)
+    current_data = pd.read_csv(current_data_path)
 
-    # Calculate PSI
-    psi = calculate_psi(expected, current)
+    total_psi = 0
+    for column in training_data.select_dtypes(include=np.number).columns:
+        expected = training_data[column]
+        current = current_data[column]
+        psi = calculate_psi(expected, current, bins=bins)
+        total_psi += psi
+        print(f"PSI for {column}: {psi:.4f}")
 
-    if psi > psi_threshold:
-        print("Drift detected! Retraining model...")
-        train_and_log_model(data_path, "models/retrained_model.pkl")
+    print(f"Total PSI: {total_psi:.4f}")
+    if total_psi > psi_threshold:
+        print("Overall drift detected! Retraining model...")
+        train_and_log_model(current_data_path, model_output_path)
     else:
-        print("No drift detected. Retraining not required.")
+        print("No significant overall drift detected. Retraining not required.")
 
-# Example usage
 if __name__ == "__main__":
-    retrain_model_if_drift("data/processed_data.csv")
+    retrain_model_if_drift(
+        training_data_path="data/processed_data.csv",
+        current_data_path="data/current_data.csv", # live data
+        model_output_path="models/retrained_model.pkl",
+        psi_threshold=0.1,
+        bins=10,
+    )
