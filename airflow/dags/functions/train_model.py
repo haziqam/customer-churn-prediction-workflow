@@ -64,8 +64,8 @@ def train_model(df_dict_str):
         )
         mlflow.log_param("model_type", "RandomForest")
         mlflow.log_param("n_estimators", 100)
-        mlflow.log_metric("accuracy", rf_acc)
-        mlflow.log_metric("f1_score", rf_f1)
+        mlflow.log_metric("accuracy", acc)
+        mlflow.log_metric("f1_score", f1)
 
         # Model is uploaded to mlflow-artifacts in S3 (normally this is done automatically by 
         # mlflow.sklearn.log_model(), but it didn't work)

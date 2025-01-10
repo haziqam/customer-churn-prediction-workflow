@@ -4,3 +4,4 @@ logs/
 minio_data/
 postgres_data/
 mlruns/
+**/**/__pycache__/
