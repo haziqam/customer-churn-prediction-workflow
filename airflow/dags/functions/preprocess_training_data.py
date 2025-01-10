@@ -59,6 +59,8 @@ def preprocess(input_path, bucket_name, output_object_key):
     for col_name in categorical_col:
         df[col_name] = df[col_name].astype("category").cat.codes
 
+    df['TotalCharges'] = ps.to_numeric(df['TotalCharges'], errors='coerce').fillna(0)
+
     print("=============================================================")
     print("Done preprocessing")    
     print(df.head())
