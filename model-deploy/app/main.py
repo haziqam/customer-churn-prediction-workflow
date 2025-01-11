@@ -70,8 +70,11 @@ class PredictionRequest(BaseModel):
     SeniorCitizen: bool
     Partner: bool
     Dependents: bool
-    tenure: int
     PhoneService: bool
+    PaperlessBilling: bool
+    MonthlyCharges: float
+    TotalCharges: float
+    tenure: int
     MultipleLines: MultipleLinesEnum
     InternetService: InternetServiceEnum
     OnlineSecurity: OnlineSecurity
@@ -81,10 +84,7 @@ class PredictionRequest(BaseModel):
     StreamingTV: StreamingTVEnum
     StreamingMovies: StreamingMoviesEnum
     Contract: ContractEnum
-    PaperlessBilling: bool
     PaymentMethod: PaymentMethodEnum
-    MonthlyCharges: float
-    TotalCharges: float
 
 class PredictionResponse(BaseModel):
     prediction: bool
@@ -118,6 +118,11 @@ def get_model():
         temp_file_path = temp_file.name
 
     model = joblib.load(temp_file_path)
+
+    # Print the feature names (if available)
+    if hasattr(model, "feature_names_in_"):
+        print("Feature names:", model.feature_names_in_)
+        
     os.remove(temp_file_path)
     print("Model loaded successfully.")
 
