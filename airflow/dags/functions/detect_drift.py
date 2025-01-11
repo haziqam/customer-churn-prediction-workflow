@@ -4,22 +4,25 @@ import sys
 import boto3
 from io import StringIO
 
-def calculate_psi(expected, actual, bins = 10):
+def calculate_psi(expected, actual, bins=10, epsilon=1e-10):
     """
     Calculate the Population Stability Index (PSI) to detect drift.
-    
+
     Args:
         expected (np.array): Expected distribution (training data).
         actual (np.array): Current distribution (new data).
         bins (int): Number of bins for comparison.
-    
+        epsilon (float): Small constant to avoid division by zero.
+
     Returns:
         float: The PSI value.
     """
-    expected_hist, _ = np.histogram(expected, bins=bins)
-    actual_hist, _ = np.histogram(actual, bins=bins)
-    expected_perc = expected_hist / sum(expected_hist)
-    actual_perc = actual_hist / sum(actual_hist)
+    expected_hist, bin_edges = np.histogram(expected, bins=bins)
+    actual_hist, _ = np.histogram(actual, bins=bin_edges)
+
+    expected_perc = (expected_hist + epsilon) / (sum(expected_hist) + epsilon * bins)
+    actual_perc = (actual_hist + epsilon) / (sum(actual_hist) + epsilon * bins)
+
     psi = np.sum((expected_perc - actual_perc) * np.log(expected_perc / actual_perc))
     return psi
 
@@ -58,23 +61,31 @@ def detect_drift(training_data_path, bucket_name, current_data_path, psi_thresho
     print(training_data.head())
 
     total_psi = 0
+
     for column in training_data.select_dtypes(include=np.number).columns:
         expected = training_data[column]
         current = current_data[column]
-        print("========EXPECTED============", expected.dtype)
-        print("========CURRENT==========", current.dtype)
+
+        # Skip columns with only zeros or NaNs
+        if expected.sum() == 0 or current.sum() == 0:
+            print(f"Skipping column {column}: contains only zeros or NaNs.")
+            continue
+
+        # Handle NaN PSI
         psi = calculate_psi(expected, current, bins=bins)
         if np.isnan(psi):
             print(f"PSI calculation produced NaN for column: {column}")
         else:
             total_psi += psi
+
         print(f"PSI for {column}: {psi:.4f}")
 
     print(f"Total PSI: {total_psi:.4f}")
+    print(f"PSI threshold: {psi_threshold}")
     if total_psi > psi_threshold:
-        kwargs['ti'].xcom_push(key="drift", value= True)
+        kwargs['ti'].xcom_push(key="drift", value=True)
     else:
-        kwargs['ti'].xcom_push(key="drift", value= False)
+        kwargs['ti'].xcom_push(key="drift", value=False)
 
 if __name__ == "__main__":
     original_data = sys.argv[1]
