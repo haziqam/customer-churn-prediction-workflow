@@ -1,20 +1,11 @@
 from pyspark.sql import SparkSession
-import pyspark.pandas as ps
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import when, col
+from pyspark.ml.feature import StringIndexer
 import uuid
 import boto3
 import sys
-
-def ensure_bucket_exists(s3_client, bucket_name):
-    """Create bucket if it doesn't exist"""
-    try:
-        s3_client.head_bucket(Bucket=bucket_name)
-    except:
-        try:
-            s3_client.create_bucket(Bucket=bucket_name)
-            print(f"Created bucket: {bucket_name}")
-        except Exception as e:
-            print(f"Error creating bucket: {str(e)}")
-            raise
+from ensure_bucket_exists import ensure_bucket_exists
 
 def preprocess(input_path, bucket_name, output_object_key):
     print("=============================================================")
@@ -25,50 +16,38 @@ def preprocess(input_path, bucket_name, output_object_key):
     
     spark = SparkSession.builder.appName("Data Preprocessing").getOrCreate()
 
+    df_spark = spark.read.csv(input_path, header=True, inferSchema=True)
+    # Drop duplicates and NaNs
+    df_spark = df_spark.dropDuplicates().dropna()
 
-    df = ps.read_csv(input_path)
-    print("=============================================================")
-    print("Read csv")
-    print("=============================================================")
+    # Drop unnecessary columns
+    df_spark = df_spark.drop("customerID")
 
+    # Map gender column
+    df_spark = df_spark.withColumn("gender", when(col("gender") == "Male", 0).otherwise(1))
 
-    df = df.drop_duplicates()
-    df = df.dropna()
-    df = df.drop(columns=['customerID'])
-
-    gender_mapping = {"Male": 0, "Female": 1}
-    df["gender"] = df["gender"].map(gender_mapping)
-
-    binary_mapping = {"No": 0, "Yes": 1}
+    # Map binary columns
     binary_col = ["Partner", "Dependents", "PhoneService", "PaperlessBilling", "Churn"]
     for col_name in binary_col:
-        df[col_name] = df[col_name].map(binary_mapping)
+        df_spark = df_spark.withColumn(col_name, when(col(col_name) == "Yes", 1).otherwise(0))
 
+    # Map categorical columns
     categorical_col = [
-        "MultipleLines",
-        "InternetService",
-        "OnlineSecurity",
-        "OnlineBackup",
-        "DeviceProtection",
-        "TechSupport",
-        "StreamingTV",
-        "StreamingMovies",
-        "Contract",
-        "PaymentMethod",
+        "MultipleLines", "InternetService", "OnlineSecurity", "OnlineBackup",
+        "DeviceProtection", "TechSupport", "StreamingTV", "StreamingMovies",
+        "Contract", "PaymentMethod"
     ]
     for col_name in categorical_col:
-        df[col_name] = df[col_name].astype("category").cat.codes
+        indexer = StringIndexer(inputCol=col_name, outputCol=f"{col_name}_index")
+        df_spark = indexer.fit(df_spark).transform(df_spark).drop(col_name).withColumnRenamed(f"{col_name}_index", col_name)
 
-    df['TotalCharges'] = ps.to_numeric(df['TotalCharges'], errors='coerce').fillna(0)
+    # Convert TotalCharges to numeric
+    df_spark = df_spark.withColumn("TotalCharges", col("TotalCharges").cast("float"))
+    df_spark = df_spark.fillna({"TotalCharges": 0.0})
 
-    print("=============================================================")
-    print("Done preprocessing")    
-    print(df.head())
-    print("=============================================================")
 
-    pandas_df = df.to_pandas()
     temp_file = f"/tmp/preprocessed_data_{uuid.uuid4()}.csv"
-    pandas_df.to_csv(temp_file, index=False)
+    df_spark.toPandas().to_csv(temp_file, index=False)
 
     print("=============================================================")
     print("Create S3 client")
@@ -90,7 +69,7 @@ def preprocess(input_path, bucket_name, output_object_key):
     s3.upload_file(temp_file, bucket_name, output_object_key)
 
     print("=============================================================")
-    print("File uploaded to S3")
+    print(f"File uploaded to S3: {bucket_name}/{output_object_key}")
     print("=============================================================")
 
     spark.stop()

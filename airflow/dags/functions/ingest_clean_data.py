@@ -37,3 +37,17 @@ def ingest_clean_data(bucket_name, object_key, **kwargs):
     print("=============================================================")
     print("Data successfully ingested and placed in XCom.")
     print("=============================================================")
+
+    
+
+    print("=============================================================")
+    print("Saving the last used dataset")
+    print("=============================================================")
+
+    text_content = object_key
+    s3.put_object(
+        Bucket='datasets',
+        Key='last_used_dataset.txt',
+        Body=text_content.encode('utf-8')
+    )
+

@@ -27,7 +27,11 @@ RUN pip install scikit-learn
 
 RUN pip install mlflow
 
+RUN pip install joblib
+
 RUN pip install faker
+
+RUN pip install numpy
 
 
 

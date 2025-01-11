@@ -20,7 +20,7 @@ COPY scripts /mlflow/scripts
 
 # Copy requirements and install them
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 # Expose the port for MLflow Tracking Server
 EXPOSE 5000

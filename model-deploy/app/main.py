@@ -1,9 +1,11 @@
-# app/main.py
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from enum import Enum
-import mlflow.sklearn
 import pandas as pd
+import joblib
+import boto3
+import tempfile
+import os
 
 app = FastAPI()
 
@@ -56,9 +58,6 @@ class ContractEnum(str, Enum):
     One_Year = "One year"
     Two_Year = "Two year"
 
-class PaperlessBillingEnum(str, Enum):
-    Yes = "Yes"
-    No = "No"
 
 class PaymentMethodEnum(str, Enum):
     Electronic_Check = "Electronic check"
@@ -71,8 +70,11 @@ class PredictionRequest(BaseModel):
     SeniorCitizen: bool
     Partner: bool
     Dependents: bool
-    tenure: int
     PhoneService: bool
+    PaperlessBilling: bool
+    MonthlyCharges: float
+    TotalCharges: float
+    tenure: int
     MultipleLines: MultipleLinesEnum
     InternetService: InternetServiceEnum
     OnlineSecurity: OnlineSecurity
@@ -82,10 +84,7 @@ class PredictionRequest(BaseModel):
     StreamingTV: StreamingTVEnum
     StreamingMovies: StreamingMoviesEnum
     Contract: ContractEnum
-    PaperlessBilling: PaperlessBillingEnum
     PaymentMethod: PaymentMethodEnum
-    MonthlyCharges: float
-    TotalCharges: float
 
 class PredictionResponse(BaseModel):
     prediction: bool
@@ -93,31 +92,56 @@ class PredictionResponse(BaseModel):
 @app.post("/predict", response_model=PredictionResponse)
 def predict(request: PredictionRequest):
     try:
-        # mlflow.set_tracking_uri("http://mlflow:5000")
+        df = preprocess_input(request)
+        model = get_model()
+        predictions = model.predict(df)
+        return PredictionResponse(prediction=bool(predictions[0]))
 
-        # model_name = "sk-learn-random-forest-reg-model"
-        # model_version = "latest"
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
+def get_model():
+    s3 = boto3.client(
+        's3',
+        endpoint_url='http://minio:9000',
+        aws_access_key_id='minioadmin',
+        aws_secret_access_key='minioadmin'
+    )
 
-        # model_uri = f"models:/{model_name}/{model_version}"
-        # model = mlflow.sklearn.load_model(model_uri)
+    bucket_name = 'mlflow-artifacts'
+    last_used_model_obj = s3.get_object(Bucket=bucket_name, Key='last_used_artifact_path.txt')
+    artifact_path = last_used_model_obj['Body'].read().decode('utf-8').strip()
+    print(f"Artifact path retrieved: {artifact_path}")
+    
+    with tempfile.NamedTemporaryFile(delete=False) as temp_file:
+        s3.download_fileobj(bucket_name, artifact_path, temp_file)
+        temp_file_path = temp_file.name
 
-        print("Model loaded successfully.")
+    model = joblib.load(temp_file_path)
 
-        # Convert request data to DataFrame
-        df = pd.DataFrame([request.dict()])
+    # Print the feature names (if available)
+    if hasattr(model, "feature_names_in_"):
+        print("Feature names:", model.feature_names_in_)
+        
+    os.remove(temp_file_path)
+    print("Model loaded successfully.")
 
-        # Preprocess the input data
-        df = df.dropna()
+    return model
 
-        gender_mapping = {"Male": 0, "Female": 1}
-        df["gender"] = df["gender"].map(gender_mapping)
 
-        binary_mapping = {"No": 0, "Yes": 1}
-        binary_col = ["Partner", "Dependents", "PhoneService", "PaperlessBilling"]
-        for col_name in binary_col:
-            df[col_name] = df[col_name].map(binary_mapping)
+def preprocess_input(request):
+    df = pd.DataFrame([request.dict()])
 
-        categorical_col = [
+    df = df.dropna()
+
+    gender_mapping = {"Male": 0, "Female": 1}
+    df["gender"] = df["gender"].map(gender_mapping)
+
+    boolean_columns = ["SeniorCitizen", "Partner", "Dependents", "PhoneService", "PaperlessBilling"]
+    for col in boolean_columns:
+        df[col] = df[col].astype(int)
+
+    categorical_col = [
             "MultipleLines",
             "InternetService",
             "OnlineSecurity",
@@ -129,17 +153,10 @@ def predict(request: PredictionRequest):
             "Contract",
             "PaymentMethod",
         ]
-        for col_name in categorical_col:
-            df[col_name] = df[col_name].astype("category").cat.codes
+        
+    for col_name in categorical_col:
+        df[col_name] = df[col_name].astype("category").cat.codes
 
-        df['TotalCharges'] = pd.to_numeric(df['TotalCharges'], errors='coerce').fillna(0)
+    df['TotalCharges'] = pd.to_numeric(df['TotalCharges'], errors='coerce').fillna(0)
 
-        print(df.head())
-
-        return PredictionResponse(prediction=True)
-
-        # predictions = model.predict(input_data)
-        # return PredictionResponse(prediction=bool(predictions[0]))
-
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    return df
