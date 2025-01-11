@@ -1,6 +1,0 @@
-mlflow
-pandas
-numpy
-scikit-learn
-boto3
-psycopg2-binary
