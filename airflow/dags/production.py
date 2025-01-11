@@ -14,7 +14,7 @@ DATASET_BUCKET_NAME = 'datasets'
 
 with DAG(
     dag_id='production_dag',
-    schedule_interval=None,
+    schedule_interval="*/15 * * * *",
     start_date=datetime(2025, 1, 10),
     catchup=False
 ) as dag:
