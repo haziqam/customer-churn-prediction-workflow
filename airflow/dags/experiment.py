@@ -42,7 +42,6 @@ with DAG(
         python_callable=ingest_clean_data,
         op_args=[
             'datasets',
-            # '2025-01-10T14:51:11.372793.csv'
             "{{ task_instance.xcom_pull(task_ids='generate_filename', key='filename') }}"    
         ],
         provide_context=True,

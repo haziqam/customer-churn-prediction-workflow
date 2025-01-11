@@ -39,11 +39,23 @@ def detect_drift(training_data_path, bucket_name, current_data_path, psi_thresho
         aws_access_key_id='minioadmin',
         aws_secret_access_key='minioadmin'
     )
+
     # Load the training and current datasets
     current_data_object = s3.get_object(Bucket=bucket_name, Key=current_data_path)
     current_data_csv = current_data_object["Body"].read().decode('utf-8')
     current_data = pd.read_csv(StringIO(current_data_csv))
-    training_data = pd.read_csv(training_data_path)
+
+    training_data_object = s3.get_object(Bucket=bucket_name, Key=training_data_path)
+    training_data_csv = training_data_object["Body"].read().decode('utf-8')
+    training_data = pd.read_csv(StringIO(training_data_csv))
+
+    print("current_data df")
+    print(current_data.describe())
+    print(current_data.head())
+
+    print("training_data")
+    print(training_data.describe())
+    print(training_data.head())
 
     total_psi = 0
     for column in training_data.select_dtypes(include=np.number).columns:

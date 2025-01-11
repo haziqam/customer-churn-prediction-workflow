@@ -31,5 +31,7 @@ RUN pip install joblib
 
 RUN pip install faker
 
+RUN pip install numpy
+
 
 
