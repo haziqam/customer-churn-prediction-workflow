@@ -194,8 +194,8 @@ Proyek ini berhasil mengintegrasikan **Airflow, Spark, MLflow, dan Docker** untu
 - Spark menangani pemrosesan big data secara paralel
 - Docker menyediakan lingkungan konsisten untuk pengembangan dan produksi.
   Kombinasi teknologi ini menciptakan workflow yang dapat diandalkan untuk proses machine learning dari data preprocessing hingga deployment.
-  Lesson Learned dari tugas ini:
 
+Lesson Learned dari tugas ini:
   1. Orkestrasi dengan Airflow
      Airflow mempermudah pengelolaan alur kerja kompleks, tetapi membutuhkan pemahaman mendalam untuk konfigurasi dan debugging.
   2. Pengelolaan Model dengan MLFlow
