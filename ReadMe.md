@@ -202,8 +202,7 @@ Proyek ini berhasil mengintegrasikan **Airflow, Spark, MLflow, dan Docker** untu
      Logging, registrasi, dan versioning model dengan MLFlow meningkatkan reprodusibilitas dan transparansi eksperimen machine learning.
   3. Skalabilitas Spark
      Spark memungkinkan preprocessing data dengan cepat, tetapi memerlukan ketelitian ekstra dalam debugging.
-  4. Pentingnya Logging dan Error Handling
-     Logging sangat diperlukan untuk melihat status program serta debugging.
+  4. Pentingnya Logging untuk melihat status program serta debugging.
 
 ---
 
@@ -218,3 +217,4 @@ Proyek ini berhasil mengintegrasikan **Airflow, Spark, MLflow, dan Docker** untu
 ## I. Lampiran
 
 - **Video Presentasi**: [YouTube](https://youtu.be/_EBamoXhTyw)
+- **Laporan**: [](./docs/IF4054_Churn%20Prediction_13521100_13521139_13521170.pdf)
